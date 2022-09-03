@@ -1,4 +1,6 @@
 <script>
+    import Header from '$lib/header/Header.svelte';
+
     import "../app.scss";
 </script>
 
@@ -6,5 +8,6 @@
 <svelte:head>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </svelte:head>
-  
+
+<Header />
 <slot />
