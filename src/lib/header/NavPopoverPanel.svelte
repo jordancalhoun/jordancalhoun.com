@@ -87,7 +87,6 @@
                     <a href={link.href}>
                         <li class="w-auto h-auto inline-block p-3 rounded hover:bg-gray-100">
                             <img src={link.src} alt={link.name}/>
-                            <!-- TODO: Add static dimensions to images -->
                         </li>
                     </a>
                     {/each}
@@ -97,7 +96,11 @@
     </div>
 </PopoverPanel>
 
-
+<style>
+    svg {
+        fill:aqua;
+    }
+</style>
 
 <!-- 
 enter="duration-200 ease-out"
