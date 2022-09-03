@@ -1,38 +1,29 @@
-# create-svelte
+# Install
+1. Clone Repo
+2. 
+    ```
+    pnpm install
+    pnpm dev 
+    ```
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Template Basics
 
-## Creating a project
+This template contains the basic setup for 99% of all my SvelteKit projects.  Template includes the following changes to the base `svelete@latest`:
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Modules
+- Tailwind CSS
+- Sass support
+- Typescript
+- ESLint & Prettier
+- No tests by default
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Pages/etc.
+- global `app.scss`
+- global `+layout.svelte`
+- `Inter var` font
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Docs
+- [Svelete](https://svelte.dev/docs)
+- [SveleteKit](https://kit.svelte.dev/docs/introduction)
+- [tailwindcss](https://tailwindcss.com/docs/installation)
+- [Sass](https://sass-lang.com/documentation/)
