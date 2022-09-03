@@ -13,19 +13,19 @@
     const navLinks: navLink[] = [
         {
             name: "Blog",
-            href: "#"
+            href: "/"
         },
         {
             name: "Mortise & Co.",
-            href: "#"
+            href: "/"
         },
         {
             name: "Code Carton",
-            href: "#"
+            href: "/"
         },
         {
             name: "Contact",
-            href: "#"
+            href: "/"
         },
     ]
 
@@ -63,7 +63,7 @@
         <div class="px-6 pt-4 pb-5">
             <div class="flex items-center justify-between">
                 <a href="/">
-                    <span class="font-bold text-md text-black">JORDAN CAHOUN</span>
+                    <span class="font-bold text-md text-black">JORDAN CALHOUN</span>
                 </a>
                 <div class="-mr-2">
                     <PopoverButton class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -76,8 +76,8 @@
 
             <ul class="font-bold text-xls text-black py-5">
                 {#each navLinks as link}
-                    <a href={link.href} class="hover:underline hover:text-violet-600">
-                        <li class="py-2 text-2xl ">{link.name}</li>
+                    <a href={link.href} class="hover:text-violet-600 bg-slate-100">
+                        <li class="p-2 rounded my-1 text-2xl hover:bg-gray-50">{link.name}</li>
                     </a>
                 {/each}
             </ul>
@@ -85,7 +85,7 @@
                 <ul >
                     {#each socialLinks as link}
                     <a href={link.href}>
-                        <li class="w-auto h-auto inline-block px-3">
+                        <li class="w-auto h-auto inline-block p-3 rounded hover:bg-gray-100">
                             <img src={link.src} alt={link.name}/>
                             <!-- TODO: Add static dimensions to images -->
                         </li>
