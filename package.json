@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"sass": "^1.54.8"
+		"sass": "^1.54.8",
+		"svelte-heros-v2": "^0.1.5"
 	}
 }
