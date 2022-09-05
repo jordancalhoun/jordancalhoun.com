@@ -3,7 +3,6 @@
     import { slide  } from 'svelte/transition';
     import { quintOut } from 'svelte/easing';
     import { Link, XMark } from 'svelte-heros-v2';
-import Github from "$lib/social-icons/Github.svelte";
 
 
     type navLink = {

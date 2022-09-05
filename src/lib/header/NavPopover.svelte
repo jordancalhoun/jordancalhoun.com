@@ -18,7 +18,18 @@
             <!-- Mobile navigation toggle-->
             <div class="md:hidden">
                 <PopoverButton class="
-                inline-flex items-center justify-center rounded-sm bg-indigo-600 p-2 text-white hover:bg-indigo-700 hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500
+                    inline-flex
+                    items-center
+                    justify-end
+                    rounded-sm 
+                    bg-indigo-600 p-2 
+                    text-white 
+                    hover:bg-indigo-700 
+                    hover:text-gray-200 
+                    focus:outline-none 
+                    focus:ring-2 
+                    focus:ring-inset 
+                    focus:ring-indigo-500
                 ">
                     <span class="sr-only">Open menu</span>
                     <Bars3 class="h-6 w-6" aria-hidden="true" />
