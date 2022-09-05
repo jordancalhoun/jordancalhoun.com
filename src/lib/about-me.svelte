@@ -1,60 +1,34 @@
 <style>
-    #rec-1 {
-        /* Rectangle 9 */
-        position: relative;
-        width: 550.53px;
-        height: 747.07px;
-        /* violet/400 */
-        float: left;
-        background: #A78BFA;
-        /* shadow-base */
-        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
-        transform: matrix(-0.34, 0.89, -1.03, -0.19, 0, 0);
-    }
-
-    #rec-2{
-        position: relative;
-        width: 760.92px;
-        height: 532.32px;
-        top: -640px;
-        /* violet/900 */
-        float: left;
-        background: #4C1D95;
-        /* shadow-md */
-
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    #rec-3 {
-        position: relative;
-        width: 550.53px;
-        height: 747.07px;
-        top: -1280px;
-        float: left;
-        /* violet/500 */
-
-        background: #8B5CF6;
-        /* shadow-lg */
-
-        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
-        transform: matrix(0.34, 0.89, -1.03, 0.19, 0, 0);
-    }
-
     #shape-wrapper {
-        height: 700px;
-        overflow: hidden;
+
+    }
+
+    #about-me-top {
+        background-image: url('/images/about-me-top.svg');
+        height: 100px;
+        background-size: 100%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    #about-me-bottom {
+        background-image: url('/images/about-me-bottom.svg');
+        height: 100px;
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
     }
 </style>
-<div id="shape-wrapper">
+<div id="about-me-top" class="sm:hidden"/>
+<div id="shape-wrapper" class="bg-violet-500 p-5">
+    <img src="/images/temp/profile-picture.png" alt="Profile of Jordan Calhoun" class="float-right pr-8" />
+    <h2 class="text-4xl font-bold text-violet-50 mb-10">About Me</h2>
+    <p class="text-white text-lg leading-8 my-6">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officiis suscipit vero, maiores cumque temporibus quae vel aliquam quo, eos facilis, adipisci laborum consectetur? Id repellendus vitae illum molestias cumque.
+    </p>
 
-    <div id="rec-1">
-    </div>
-
-    <div id="rec-2">
-    </div>
-
-    <div id="rec-3">
-    </div>
-
-    <h2 class="text-4xl">About Me</h2>
+    <p class="text-white text-lg leading-8 my-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officiis suscipit vero, maiores cumque temporibus quae vel aliquam quo, eos facilis, adipisci laborum consectetur? Id repellendus vitae illum molestias cumque.
+    </p>
 </div>
+<div id="about-me-bottom" />
