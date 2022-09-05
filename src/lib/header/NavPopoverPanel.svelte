@@ -88,7 +88,7 @@
                     <a href={link.href}>
                         <li class="w-auto h-auto inline-block p-3 rounded hover:bg-gray-100">
                             <!-- TODO: Update links to be svg componenents with hover state -->
-                            <img src={link.src} />
+                            <img src={link.src} alt={link.name} />
                         </li>
                     </a>
                     {/each}
