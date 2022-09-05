@@ -1,8 +1,10 @@
 <script lang="ts">
     import { PopoverPanel, PopoverButton } from "@rgossiaux/svelte-headlessui";
-    import { fade, slide  } from 'svelte/transition';
+    import { slide  } from 'svelte/transition';
     import { quintOut } from 'svelte/easing';
-    import { XMark } from 'svelte-heros-v2';
+    import { Link, XMark } from 'svelte-heros-v2';
+import Github from "$lib/social-icons/Github.svelte";
+
 
     type navLink = {
         name: string;
@@ -86,7 +88,8 @@
                     {#each socialLinks as link}
                     <a href={link.href}>
                         <li class="w-auto h-auto inline-block p-3 rounded hover:bg-gray-100">
-                            <img src={link.src} alt={link.name}/>
+                            <!-- TODO: Update links to be svg componenents with hover state -->
+                            <img src={link.src} />
                         </li>
                     </a>
                     {/each}
@@ -95,12 +98,6 @@
         </div>
     </div>
 </PopoverPanel>
-
-<style>
-    svg {
-        fill:aqua;
-    }
-</style>
 
 <!-- 
 enter="duration-200 ease-out"
