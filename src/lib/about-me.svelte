@@ -17,7 +17,7 @@
 </style>
 <div id="about-me-top" class="sm:hidden mt-20"/>
 <div id="shape-wrapper" class="bg-violet-500 p-5">
-    <img src="/images/temp/profile-picture.png" alt="Profile of Jordan Calhoun" class="float-right pr-8" />
+    <img src="/images/temp/profile-picture.png" alt="Profile of Jordan Calhoun" class="float-right" />
     <h2 class="text-4xl font-bold text-violet-50 mb-10">About Me</h2>
     <p class="text-white text-lg leading-8 my-6">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officiis suscipit vero, maiores cumque temporibus quae vel aliquam quo, eos facilis, adipisci laborum consectetur? Id repellendus vitae illum molestias cumque.
