@@ -1,6 +1,9 @@
 ---
 title: Functional Components
 date: "2021-11-25"
+categories:
+  - "javascript"
+  - "programing"
 ---
 
 > In the latest versions of React, **function components can do everything that class components can do**. In most cases, however, **function components offer a more elegant, concise way of creating React components.**
