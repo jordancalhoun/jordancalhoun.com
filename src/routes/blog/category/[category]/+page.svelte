@@ -1,7 +1,11 @@
-<script lang="ts">
-    export let data: any;
+<script>
+    export let data
 </script>
-<div class="mx-auto max-w-5xl p-10">        
+
+
+
+<div class="mx-auto max-w-5xl p-10"> 
+    <h1 class="text-3xl">Filtered by: {data.category}</h1>       
     <ul class="mt-10">
         {#each data.posts as post}
         <li class="p-5 font-bold ">
