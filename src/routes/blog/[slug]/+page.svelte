@@ -13,7 +13,7 @@
 
 </script>
 
-<article class="prose prose-img:rounded-lg m-5 lg:prose-xl mx-auto mt-10">
+<article class="prose prose-img:rounded-lg m-5 lg:prose-xl mx-auto mt-10 px-3">
     <h1>{ title }</h1>
     <p>Published: {date}</p>
     <Content />
