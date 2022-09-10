@@ -2,10 +2,6 @@
     import { Popover, PopoverButton, PopoverGroup } from "@rgossiaux/svelte-headlessui";
     import { Bars3 } from 'svelte-heros-v2';
     import NavPopoverPanel from "./NavPopoverPanel.svelte";
-    import { fade } from 'svelte/transition'
-
-    export let data;
-
 </script>
 
 <Popover class="relative bg-black">
@@ -41,7 +37,6 @@
 
             <!-- Mobile Navigation Popover -->
             <NavPopoverPanel />
-
             <div class="md:flex hidden">
                 <a href="/blog"
                     class="
