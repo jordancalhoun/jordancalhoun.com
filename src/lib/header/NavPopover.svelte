@@ -14,7 +14,7 @@
             <!-- Logo Div -->
             <div class="flex justify-start lg:w-0 lg:flex-1">
                     <a href="/">
-                        <span class="text-white font-bold text-3xl block pt-1 hover:text-pink-600">JORDAN CALHOUN</span>
+                        <span class="text-white font-bold text-3xl block pt-1 hover:text-pink-600 dark:text-gray-100">JORDAN CALHOUN</span>
                       </a>
             </div>
 
@@ -80,8 +80,6 @@
                     About
                 </a>
             </div>
-
-
         </div>
     </div>
 </Popover>
