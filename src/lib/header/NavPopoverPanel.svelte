@@ -14,7 +14,7 @@
     const navLinks: navLink[] = [
         {
             name: "Blog",
-            href: "/"
+            href: "/blog"
         },
         {
             name: "Mortise & Co.",
@@ -73,7 +73,7 @@
                     </PopoverButton>
                 </div>
             </div>
-           
+
 
             <ul class="font-bold text-xls text-black py-5">
                 {#each navLinks as link}
@@ -97,12 +97,3 @@
         </div>
     </div>
 </PopoverPanel>
-
-<!-- 
-enter="duration-200 ease-out"
-enterFrom="opacity-0 scale-95"
-enterTo="opacity-100 scale-100"
-leave="duration-100 ease-in"
-leaveFrom="opacity-100 scale-100"
-leaveTo="opacity-0 scale-95"
- -->
