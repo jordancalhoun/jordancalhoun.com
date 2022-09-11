@@ -18,14 +18,14 @@ export const fetchMarkdownPosts = async () => {
             // resolver() == () => import('/src/routes/blog/posts/some-blog-post.md')
             const { metadata } = await resolver();
             // the content of the post would be listed as { default }
-            // this is formed from the mdsvex plugin preprocess 
-            
+            // this is formed from the mdsvex plugin preprocess
+
             //Generate the route path, remove the abosulte portion for the relative path name
             // /src/routes/blog/posts/ == 23, .md == -3
             // Need to re-add the /blog/ to the path, but without the posts part
             const postPath = `/blog/${path.slice(23, -3)}`
 
-            // return reach blog post as an object with a path and metadata 
+            // return reach blog post as an object with a path and metadata
             return {
                 path: postPath,
                 meta: metadata

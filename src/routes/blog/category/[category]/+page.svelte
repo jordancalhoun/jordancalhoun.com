@@ -1,11 +1,13 @@
-<script>
-    export let data
+<script lang="ts">
+    import type { PageData } from './$types'
+
+    export let data: PageData
 </script>
 
 
 
-<div class="mx-auto max-w-5xl p-10"> 
-    <h1 class="text-3xl">Filtered by: {data.category}</h1>       
+<div class="mx-auto max-w-5xl p-10">
+    <h1 class="text-3xl">Filtered by: {data.category}</h1>
     <ul class="mt-10">
         {#each data.posts as post}
         <li class="p-5 font-bold ">
