@@ -15,7 +15,6 @@ export const load: PageServerLoad = async ({ params }) => {
 }
 
 // export const load: PageLoad = async ({ params }) => {
-//     //  TODO: Implement a try catch block for error handling.
 //     const post = await import(`../posts/${params.slug}.md`)
 //     const {
 //         title,
