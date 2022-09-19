@@ -1,20 +1,25 @@
-<script>
-    import Header from '$lib/header/Header.svelte';
-    import { fade } from 'svelte/transition'
-    import "../app.scss";
+<script lang="ts">
+  import Header from '$lib/header/Header.svelte';
+  import { fade } from 'svelte/transition';
+  import '../app.scss';
+  import type { PageData } from './$types';
 
-    export let data;
+  export let data: PageData;
 </script>
 
-<!-- #TODO: Importing Inter font from remote, is this the best soltuion? -->
+<!-- #TODO: Importing Inter font from remote, is this the best solution? -->
 <svelte:head>
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
 </svelte:head>
 
 <Header />
 
 {#key data.currentRoute}
-  <main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }} class="mx-auto max-w-7xl">
+  <main
+    in:fade={{ duration: 150, delay: 150 }}
+    out:fade={{ duration: 150 }}
+    class="mx-auto max-w-7xl"
+  >
     <slot />
   </main>
 {/key}
