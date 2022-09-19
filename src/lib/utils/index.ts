@@ -1,3 +1,17 @@
+export type Post = {
+  postPath: string;
+  meta: {
+    title: string;
+    date: string;
+    updated: string;
+    categories: string[];
+    coverImage: string;
+    coverWidth: number;
+    coverHeight: number;
+    excerpt: string;
+  };
+};
+
 export const fetchMarkdownPosts = async () => {
   const allPostsFiles = import.meta.glob('$lib/posts/*.md');
   const iterablePostFiles = Object.entries(allPostsFiles);
