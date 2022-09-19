@@ -1,15 +1,17 @@
+import { json } from '@sveltejs/kit';
+
 export type Post = {
-  postPath: string;
+  postPath: string,
   meta: {
-    title: string;
-    date: string;
-    updated: string;
-    categories: string[];
-    coverImage: string;
-    coverWidth: number;
-    coverHeight: number;
-    excerpt: string;
-  };
+    title: string,
+    date: string,
+    updated: string,
+    categories: string[],
+    coverImage: string,
+    coverWidth: number,
+    coverHeight: number,
+    excerpt: string,
+  },
 };
 
 export const fetchMarkdownPosts = async () => {
@@ -28,4 +30,14 @@ export const fetchMarkdownPosts = async () => {
     })
   );
   return allPosts;
+};
+
+export const GET = async () => {
+  const allPosts = await fetchMarkdownPosts();
+
+  const sortedPosts = allPosts.sort((a, b) => {
+    return new Date(b.meta.date).valueOf() - new Date(a.meta.date).valueOf();
+  });
+
+  return json(sortedPosts);
 };
