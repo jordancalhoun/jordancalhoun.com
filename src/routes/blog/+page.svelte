@@ -1,7 +1,9 @@
 <script lang="ts">
-    export let data: any;
+    import type { PageData } from './$types';
+    export let data: PageData;
 </script>
-<div class="mx-auto max-w-5xl p-10">        
+
+<div class="mx-auto max-w-5xl p-10">
     <ul class="mt-10">
         {#each data.posts as post}
         <li class="p-5 font-bold ">

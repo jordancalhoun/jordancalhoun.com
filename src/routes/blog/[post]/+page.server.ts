@@ -1,7 +1,7 @@
-import type { PageLoad } from './$types'
+import type { ServerLoad } from './$types'
 import { error } from '@sveltejs/kit'
 
-export const load: PageLoad = async ({ params }) => {
+export const load: ServerLoad = async ({ params }) => {
     try {
         const post = await import(`../../../lib/posts/${params.post}.md`)
 
@@ -13,32 +13,3 @@ export const load: PageLoad = async ({ params }) => {
         throw error(404, err)
     }
 }
-
-// export const load: PageLoad = async ({ params }) => {
-//     //  TODO: Implement a try catch block for error handling.
-//     const post = await import(`../posts/${params.slug}.md`)
-//     const {
-//         title,
-//         date,
-//         updated,
-//         categories,
-//         coverImage,
-//         coverWidth,
-//         coverHeight,
-//         excerpt,
-//     }  = post.metadata
-
-//     const Content = post.default
-
-//     return {
-//         title,
-//         date,
-//         updated,
-//         categories,
-//         coverImage,
-//         coverWidth,
-//         coverHeight,
-//         excerpt,
-//         Content
-//     }
-// }
