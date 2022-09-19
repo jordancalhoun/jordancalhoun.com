@@ -5,10 +5,14 @@
 
   const { title, date, updated, categories, coverImage, coverWidth, coverHeight, excerpt } =
     data.meta;
+
+  const goBack = () => {
+    history.back();
+  };
 </script>
 
 <svelte:head>
-  <!-- TODO: Be sure to add your image files and un-comment the lines below -->
+  <!-- TODO: Be sure to add your image files and un-comment the lines below, update URL -->
   <title>{title}</title>
   <meta data-key="description" name="description" content={excerpt} />
   <meta property="og:type" content="article" />
@@ -23,6 +27,7 @@
 </svelte:head>
 
 <article class="dark:prose-invert prose prose-img:rounded-lg m-5 lg:prose-xl mx-auto mt-10 px-3">
+  <button on:click={goBack}>Go Back</button>
   <img src="/images/blog/{coverImage}" alt="" style="aspect-ratio: {coverWidth} / {coverHeight};" />
   <p>Posted in:</p>
   <ul>

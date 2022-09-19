@@ -1,7 +1,7 @@
-import type { ServerLoad } from './$types';
+import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 
-export const load: ServerLoad = async ({ params }) => {
+export const load: PageServerLoad = async ({ params }) => {
   try {
     const post = await import(`../../../lib/posts/${params.post}.md`);
 
@@ -9,7 +9,7 @@ export const load: ServerLoad = async ({ params }) => {
       PostContent: post.default.render().html,
       meta: { ...post.metadata, slug: params.post },
     };
-  } catch (err) {
+  } catch (err: any) {
     throw error(404, err);
   }
 };
