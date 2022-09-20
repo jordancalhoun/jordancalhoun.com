@@ -37,10 +37,10 @@
 
             <!-- Mobile Navigation Popover -->
             <NavPopoverPanel />
-            <div class="md:flex hidden">
+            <div class="md:flex hidden font-lg">
                 <a href="/blog"
                     class="
-                    font-medium
+                    mr-3
                     p-3
                     rounded
                     transition-colors
@@ -52,7 +52,7 @@
                 </a>
                 <a href="/"
                     class="
-                    font-medium
+                    mx-3
                     p-3
                     rounded
                     transition-colors
@@ -64,7 +64,7 @@
                 </a>
                 <a href="/"
                     class="
-                    font-medium
+                    ml-3
                     p-3
                     rounded
                     transition-colors

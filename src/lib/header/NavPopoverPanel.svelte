@@ -4,7 +4,6 @@
     import { quintOut } from 'svelte/easing';
     import { Link, XMark } from 'svelte-heros-v2';
 
-
     type navLink = {
         name: string;
         href: string;
