@@ -2,10 +2,6 @@
     import { Popover, PopoverButton, PopoverGroup } from "@rgossiaux/svelte-headlessui";
     import { Bars3 } from 'svelte-heros-v2';
     import NavPopoverPanel from "./NavPopoverPanel.svelte";
-    import { fade } from 'svelte/transition'
-
-    export let data;
-
 </script>
 
 <Popover class="relative bg-black">
@@ -14,7 +10,7 @@
             <!-- Logo Div -->
             <div class="flex justify-start lg:w-0 lg:flex-1">
                     <a href="/">
-                        <span class="text-white font-bold text-3xl block pt-1 hover:text-pink-600">JORDAN CALHOUN</span>
+                        <span class="text-white font-bold text-3xl block pt-1 hover:text-pink-600 dark:text-gray-100">JORDAN CALHOUN</span>
                       </a>
             </div>
 
@@ -41,7 +37,6 @@
 
             <!-- Mobile Navigation Popover -->
             <NavPopoverPanel />
-
             <div class="md:flex hidden">
                 <a href="/blog"
                     class="
@@ -80,8 +75,6 @@
                     About
                 </a>
             </div>
-
-
         </div>
     </div>
 </Popover>
