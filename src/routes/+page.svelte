@@ -3,6 +3,9 @@
   import PostCard from '$lib/post-card.svelte';
 </script>
 
+<AboutMe />
+
+<!-- 
 <div class="m-5">
   <h1 class="text-xl font-bold mb-3">Latest Blog Post</h1>
   <PostCard />
@@ -19,4 +22,4 @@
 <img src="/images/code-carton-logo.svg" alt="Mortise & Co. Logo" class="mx-auto mt-40 px-4" />
 <p class="text-gray-500 italic text-lg m-8 text-center">
   Established in 2010, Code Carton is a small developement company. More info on this space soon
-</p>
+</p> -->
