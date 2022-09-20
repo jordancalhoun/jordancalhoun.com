@@ -1,11 +1,11 @@
 <script>
-  import AboutMe from '$lib/about-me.svelte';
+  import AboutMe from '$lib/components/about-me.svelte';
   import PostCard from '$lib/post-card.svelte';
 </script>
 
 <AboutMe />
 
-<!-- 
+<!--
 <div class="m-5">
   <h1 class="text-xl font-bold mb-3">Latest Blog Post</h1>
   <PostCard />
