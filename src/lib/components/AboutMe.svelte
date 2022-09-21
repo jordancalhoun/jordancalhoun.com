@@ -53,7 +53,7 @@
     <div class="flex align-middle mt-10">
       {#each socialLinks as link}
         <a href={link.href} class="mx-3 first:ml-0 last:mr-0" target="_blank">
-          <svelte:component this={link.icon} class="text-violet-800 hover:text-violet-50"/>
+          <svelte:component this={link.icon} class="text-violet-800 hover:text-violet-200"/>
         </a>
       {/each}
     </div>
