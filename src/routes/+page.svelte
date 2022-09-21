@@ -1,7 +1,6 @@
 <script lang="ts">
   import AboutMe from '$lib/components/AboutMe.svelte';
   import BlogExcerpt from '$lib/components/BlogExcerpt.svelte';
-  import { fetchMarkdownPosts } from '$lib/utils/fetchPosts';
   import type { PageData } from './$types';
 
   export let data: PageData;
