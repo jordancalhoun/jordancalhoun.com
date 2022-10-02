@@ -1,15 +1,14 @@
 <script lang="ts">
+  import { generateFriendlyDate } from '$lib/utils/date';
   import type { Post } from '$lib/utils/fetchPosts';
   import { ChevronRight } from 'svelte-heros-v2';
   export let post: Post;
-  const date = new Date(post.meta.date).toLocaleDateString('en-us', { year:"numeric", month:"short", day:"numeric"})
-  var seconds = Math.floor((new Date() - new Date(post.meta.date)) / 1000);
-  const interval = seconds / 86400;
-  const fancyDate = Math.floor(interval) + " days ago";
+  const date = generateFriendlyDate(post.meta.date);
+
 </script>
 
 <div class="first:mb-10">
-  <p class="text-gray-400 font-semibold text-xs mb-3">{fancyDate}</p>
+  <p class="text-gray-400 font-semibold text-xs mb-3">{date}</p>
   <h2 class="font-semibold text-xl text-gray-700 hover:underline mb-3">
     <a href="{post.path}">
       {post.meta.title}
