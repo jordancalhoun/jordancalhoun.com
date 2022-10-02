@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { generateFriendlyDate } from '$lib/utils/date';
+  import Callout from '$lib/components/Callout.svelte';
   import type { PageData } from './$types';
 
   export let data: PageData;
@@ -9,6 +11,8 @@
   const goBack = () => {
     history.back();
   };
+
+  const friendlyDate = generateFriendlyDate(date, true);
 </script>
 
 <svelte:head>
@@ -26,26 +30,44 @@
   <meta name="twitter:image" content="http//localhost:5173/images/blog/{coverImage}" />
 </svelte:head>
 
-<article class="dark:prose-invert prose prose-img:rounded-lg m-5 lg:prose-xl mx-auto mt-10 px-3">
-  <button on:click={goBack}>Go Back</button>
-  <img src="/images/blog/{coverImage}" alt="" style="aspect-ratio: {coverWidth} / {coverHeight};" />
-  <p>Posted in:</p>
-  <ul>
-    {#each categories as category}
-      <li>
-        <a href="/blog/category/{category}">
-          {category}
-        </a>
-      </li>
-    {/each}
-  </ul>
-  <p class="text-sm text-gray-400">Published: {date}</p>
-
-  {#if updated}
-    <p class="text-sm text-gray-400">Updated: {updated}</p>
+<article class="mx-auto max-w-4xl my-10 px-10 prose prose-neutral">
+  <h1 class="text-center text-gray-800 font-semibold text-4xl mb-5">{title}</h1>
+  <p class="text-center">
+    <span class="text-sm text-gray-400">{friendlyDate}</span>
+    {#if updated}
+      <p class="text-sm text-gray-400">Updated: {updated}</p>
   {/if}
-
-  <h1>{title}</h1>
+    {#each categories as category}
+      <a
+        href="/blog/category/{category}"
+        class="
+              px-2
+              py-1
+              mx-2
+              bg-neutral-100
+              rounded
+              text-neutral-500
+              no-underline
+              text-xs
+              font-bold
+              hover:bg-neutral-300
+              hover:text-neutral-700"
+      >
+        {category.toUpperCase()}
+      </a>
+    {/each}
+  </p>
+  <img
+    src="/images/blog/{coverImage}"
+    alt=""
+    style="aspect-ratio: {coverWidth} / {coverHeight};"
+    class="
+      my-9
+      rounded-lg
+      shadow-md
+    "
+  />
 
   {@html data.PostContent}
+
 </article>

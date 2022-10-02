@@ -16,7 +16,7 @@
   </div>
   <div>
     <div class="mt-20 mr-20 w-96">
-      <h3 class="text-gray-800 text-lg font-semibold">Recommendation of the Month</h3>
+      <h3 class="text-neutral-800 text-lg font-semibold">Recommendation of the Month</h3>
       <iframe
         title="Album of the Month Spotify"
         style="border-radius:8px"
@@ -28,7 +28,7 @@
         loading="lazy">
       </iframe>
 
-      <h3 class="text-gray-800 text-lg font-semibold mt-5">My Playlist</h3>
+      <h3 class="text-neutral-800 text-lg font-semibold mt-5">My Playlist</h3>
       <iframe
         title="Spotify Playlist"
         style="border-radius:8px"

@@ -4,6 +4,7 @@
     import { quintOut } from 'svelte/easing';
     import { Link, XMark } from 'svelte-heros-v2';
 
+    // TODO: Remove this, and links below to use props
     type navLink = {
         name: string;
         href: string;
