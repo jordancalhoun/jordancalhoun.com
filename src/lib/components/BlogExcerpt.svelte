@@ -2,19 +2,24 @@
   import type { Post } from '$lib/utils/fetchPosts';
   import { ChevronRight } from 'svelte-heros-v2';
   export let post: Post;
+  const date = new Date(post.meta.date).toLocaleDateString('en-us', { year:"numeric", month:"short", day:"numeric"})
+  var seconds = Math.floor((new Date() - new Date(post.meta.date)) / 1000);
+  const interval = seconds / 86400;
+  const fancyDate = Math.floor(interval) + " days ago";
 </script>
 
-<div>
-  <p class="text-gray-400 font-semibold text-xs ">3 days ago</p>
+<div class="first:mb-10">
+  <p class="text-gray-400 font-semibold text-xs mb-3">{fancyDate}</p>
+  <h2 class="font-semibold text-xl text-gray-700 hover:underline mb-3">
+    <a href="{post.path}">
+      {post.meta.title}
+    </a>
+  </h2>
   <p class="text-gray-500 text-base tex-sm">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    {post.meta.excerpt}
   </p>
-  <a href="#{post.path}" class="text-cyan-500 hover:underline underline-offset-4">
+  <a href="{post.path}" class="text-cyan-500 font-medium hover:underline underline-offset-4 mt-2 inline-block text-sm">
     Read More
-    <ChevronRight class="inline text-cyan-500" />
+    <ChevronRight class="inline text-cyan-500 h-4 w-4 -ml-1" />
   </a>
 </div>
