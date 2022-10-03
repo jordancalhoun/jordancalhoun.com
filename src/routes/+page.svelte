@@ -8,8 +8,8 @@
 
 <AboutMe />
 
-<div class="lg:flex px-20 mx-auto max-w-7xl">
-  <div class="mt-16 lg:mr-20">
+<div class="p-7 lg:flex md:px-20 mx-auto max-w-7xl">
+  <div class="lg:mt-16 lg:mr-20">
     {#each data.posts as post}
       <BlogExcerpt {post} />
     {/each}

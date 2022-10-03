@@ -36,7 +36,7 @@
 </script>
 
 <div class="bg-violet-500  ">
-  <div class="max-w-7xl mx-auto md:flex p-20">
+  <div class="max-w-7xl mx-auto p-7 md:flex md:p-20">
     <div>
       <h2 class="text-4xl font-bold text-violet-50 mb-7">Hi 👋, I'm Jordan</h2>
       <p class="text-violet-50 text-xl leading-10">
@@ -46,7 +46,7 @@
         Along with programming, I am a woodworker with a focus on fine furniture.
         In 2022 I started Mortise & Code, a software company that creates tools for the woodworking and maker community.
       </p>
-      <div class="flex align-middle mt-10">
+      <div class="md:flex mt-10 hidden ">
         {#each socialLinks as link}
           <a href={link.href} class="mx-3 first:ml-0 last:mr-0" target="_blank">
             <svelte:component this={link.icon} class="text-violet-800 hover:text-violet-200"/>
@@ -54,7 +54,7 @@
         {/each}
       </div>
     </div>
-    <div class="min-w-fit my-auto hidden lg:block">
+    <div class="min-w-fit my-auto hidden md:block">
       <img src="/images/profile-picture.jpeg" alt="Jordan and Brinley"  class="w-60 rounded mx-8" />
     </div>
   </div>

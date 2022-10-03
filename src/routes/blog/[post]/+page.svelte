@@ -30,13 +30,24 @@
   <meta name="twitter:image" content="http//localhost:5173/images/blog/{coverImage}" />
 </svelte:head>
 
-<article class="mx-auto max-w-4xl my-10 px-10 prose prose-neutral">
+<article class="mx-auto max-w-4xl md:my-10 md:px-10 prose prose-neutral">
+  <img
+    src="/images/blog/{coverImage}"
+    alt=""
+    style="aspect-ratio: {coverWidth} / {coverHeight};"
+    class="
+      md:my-9
+      md:rounded-lg
+      shadow-md
+      md:hidden
+    "
+  />
   <h1 class="text-center text-gray-800 font-semibold text-4xl mb-5">{title}</h1>
   <p class="text-center">
     <span class="text-sm text-gray-400">{friendlyDate}</span>
     {#if updated}
       <p class="text-sm text-gray-400">Updated: {updated}</p>
-  {/if}
+    {/if}
     {#each categories as category}
       <a
         href="/blog/category/{category}"
@@ -63,11 +74,14 @@
     style="aspect-ratio: {coverWidth} / {coverHeight};"
     class="
       my-9
-      rounded-lg
+      md:rounded-lg
       shadow-md
+      hidden
+      md:block
     "
   />
-
+  <div class="px-7">
   {@html data.PostContent}
 
+  </div>
 </article>
