@@ -1,6 +1,6 @@
 ---
 title: Functional Components, Part 2
-date: '09-28-2022'
+date: '2022-09-28'
 categories:
   - 'javascript'
   - 'programing'

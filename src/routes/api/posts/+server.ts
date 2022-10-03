@@ -1,14 +1,14 @@
 import { json } from '@sveltejs/kit';
 import { fetchMarkdownPosts } from '$lib/utils/posts';
 
-export const GET = async () => {
+// TODO: Implement Pagination
+export const GET = async ({ limit = 10 }) => {
   const allPosts = await fetchMarkdownPosts();
+  const sortedPosts = allPosts
+    .sort((a, b) => {
+      return new Date(b.meta.date).valueOf() - new Date(a.meta.date).valueOf();
+    })
+    .slice(0, limit);
 
-  const sortedPosts = allPosts.sort((a, b) => {
-    return new Date(b.meta.date).valueOf() - new Date(a.meta.date).valueOf();
-  });
-
-  const limited = sortedPosts.slice(0,2)
-
-  return json(limited);
+  return json(sortedPosts);
 };

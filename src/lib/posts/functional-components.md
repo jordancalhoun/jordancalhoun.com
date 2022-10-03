@@ -1,16 +1,16 @@
 ---
 title: Functional Components
-date: "2021-11-25"
+date: '2021-11-25'
 categories:
-  - "javascript"
-  - "programing"
+  - 'javascript'
+  - 'programing'
 ---
 
 > In the latest versions of React, **function components can do everything that class components can do**. In most cases, however, **function components offer a more elegant, concise way of creating React components.**
 
 ## Stateless Functional Components
 
-----
+---
 
 ```javascript
 // A component class written in the usual way:
@@ -23,18 +23,15 @@ export class MyComponentClass extends React.Component {
 // The same component class, written as a stateless functional component:
 export const MyComponentClass = () => {
   return <h1>Hello world</h1>;
-}
+};
 
 // Works the same either way:
-ReactDOM.render(
-	<MyComponentClass />,
-	document.getElementById('app')
-);
+ReactDOM.render(<MyComponentClass />, document.getElementById('app'));
 ```
 
 ## Function Components & `props`
 
-----
+---
 
 - Function components, like class based ones, can receive information via `props`
 - To access these `props`, give your function component a parameter named `props`
@@ -50,15 +47,15 @@ export function YesNoQuestion (props) {
     </div>
   );
 }
- 
+
 ReactDOM.render(
   <YesNoQuestion prompt="Have you eaten an apple today?" />,
   document.getElementById('app');
 );
 ```
 
-- Notice the function in this call is not a variable assigned to an annonous function, rather a function itself.  I am guessing only stateless components are written like the first example.
-- *Function components* are React components defined as JavaScript functions
+- Notice the function in this call is not a variable assigned to an annonous function, rather a function itself. I am guessing only stateless components are written like the first example.
+- _Function components_ are React components defined as JavaScript functions
 - Function components must return JSX
 - Function components may accept a `props` parameter. Expect it to be a JavaScript object
 
@@ -66,32 +63,32 @@ ReactDOM.render(
 
 > Functions that let us manage the internal state of components and handle post-rendering side effects directly from our function components
 
-> *Note: If you’re familiar with* [*lifecycle methods*](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)* of class components, you could say that Hooks let us “hook into” state and lifecycle features directly from our function components.*
+> _Note: If you’re familiar with_ [_lifecycle methods_](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)_ of class components, you could say that Hooks let us “hook into” state and lifecycle features directly from our function components._
 
 - Hooks allow functional components to have the same features as class based components.
 - **React Hooks** are functions that **let us manage the internal state of components** and handle post-rendering side effects directly from our function components.
 - Hooks do not work in classes
 - React offers a number of built-in Hooks. A few of these include
-   - `useState()`
-   - `useEffect()`
-   - `useContext()`
-   - `useReducer()`
-   - `useRef()`
-   - See [the full list in the docs](https://reactjs.org/docs/hooks-reference.html)
+  - `useState()`
+  - `useEffect()`
+  - `useContext()`
+  - `useReducer()`
+  - `useRef()`
+  - See [the full list in the docs](https://reactjs.org/docs/hooks-reference.html)
 
 ## `state` hooks
 
-----
+---
 
-- The state hook is the most common hook used.  The State Hook is a named export, its imported like this:
+- The state hook is the most common hook used. The State Hook is a named export, its imported like this:
 
 ```javascript
 import React, { useState } from 'react';
 ```
 
 - `useState()` is a JavaScript function defined in the React library. When we call this function, it **returns an array with two values**:
-   - *current state* - the current value of this state
-   - *state setter* - a function that we can use to update the value of this state
+  - _current state_ - the current value of this state
+  - _state setter_ - a function that we can use to update the value of this state
 - React returns these two values in an array, we can assign them to local variables, naming them whatever we like. For example:
 
 ```javascript
@@ -103,36 +100,34 @@ const [toggle, setToggle] = useState();
 
 ### Initialize State
 
-----
+---
 
-- To initialize our state,  pass the initial value as an argument to the `useState()` function call.
+- To initialize our state, pass the initial value as an argument to the `useState()` function call.
 
 ```javascript
 const [isLoading, setIsLoading] = useState(true);
 ```
 
 - There are three ways in which this code affects our component:
-   1. During the first render, the *initial state argument* is used.
-   2. When the state setter is called, React ignores the initial state argument and uses the new value.
-   3. When the component re-renders for any other reason, React continues to use the same value from the previous render.
+  1.  During the first render, the _initial state argument_ is used.
+  2.  When the state setter is called, React ignores the initial state argument and uses the new value.
+  3.  When the component re-renders for any other reason, React continues to use the same value from the previous render.
 
 ### Using State Setter Outside of JSX
 
-----
+---
 
 ```javascript
 import React, { useState } from 'react';
- 
+
 export default function EmailTextInput() {
   const [email, setEmail] = useState('');
   const handleChange = (event) => {
     const updatedEmail = event.target.value;
     setEmail(updatedEmail);
-  }
- 
-  return (
-    <input value={email} onChange={handleChange} />
-  );
+  };
+
+  return <input value={email} onChange={handleChange} />;
 }
 ```
 
@@ -142,7 +137,7 @@ This is so common in React code, that we can comfortably simplify this:
 const handleChange = (event) => {
   const newEmail = event.target.value;
   setEmail(newEmail);
-}
+};
 ```
 
 to:
@@ -154,22 +149,22 @@ const handleChange = (event) => setEmail(event.target.value);
 or with [object destructuring](https://www.codecademy.com/content-items/92a5f93c6dbc6794d83e00383fc3af68?), to this:
 
 ```javascript
-const handleChange = ({target}) => setEmail(target.value);
+const handleChange = ({ target }) => setEmail(target.value);
 ```
 
 ### Set from previous state
 
-----
+---
 
 ```javascript
 import React, { useState } from 'react';
- 
+
 export default function Counter() {
   const [count, setCount] = useState(0);
- 
-	// this is just annonomouse arrow function below
-  const increment = () => setCount(prevCount => prevCount + 1);
- 
+
+  // this is just annonomouse arrow function below
+  const increment = () => setCount((prevCount) => prevCount + 1);
+
   return (
     <div>
       <p>Wow, you've clicked that button: {count} times</p>
@@ -179,21 +174,21 @@ export default function Counter() {
 }
 ```
 
-- For reasons, you should not set state from in this example the count variable.  For some reason this could give you bad data.  You always want to comepare to the previous state.
+- For reasons, you should not set state from in this example the count variable. For some reason this could give you bad data. You always want to comepare to the previous state.
 
 ### Separate Hooks for Separate States
 
-----
+---
 
 - With React, we feed static and dynamic data models to JSX to render a view to the screen
 - Use Hooks to “hook into” internal component state for managing dynamic data in function components
 - We employ the State Hook by using the code below:
-   - `currentState` to reference the current value of state
-   - `stateSetter` to reference a function used to update the value of this state
-   - the `initialState` argument to initialize the value of state for the component’s first render
+  - `currentState` to reference the current value of state
+  - `stateSetter` to reference a function used to update the value of this state
+  - the `initialState` argument to initialize the value of state for the component’s first render
 
 ```javascript
-const [currentState, stateSetter] = useState( initialState );
+const [currentState, stateSetter] = useState(initialState);
 ```
 
 - Call state setters in event handlers
@@ -205,7 +200,7 @@ const [currentState, stateSetter] = useState( initialState );
 
 # The Effect Hook
 
-----
+---
 
 - Import the same way you would `React` or `{ useState }`:
 
@@ -214,22 +209,22 @@ import { useEffect } from 'react';
 ```
 
 - The Effect Hook is used to call another function that does something for us so there is nothing returned when we call the `useEffect()` function.
-- The first argument passed to the `useEffect()` function is the callback function that we want React to call after each time this component renders. We will refer to this callback function as our *effect*.
+- The first argument passed to the `useEffect()` function is the callback function that we want React to call after each time this component renders. We will refer to this callback function as our _effect_.
 
 ```javascript
 import React, { useState, useEffect } from 'react';
- 
+
 function PageTitle() {
   const [name, setName] = useState('');
- 
+
   useEffect(() => {
     document.title = `Hi, ${name}`;
   });
- 
+
   return (
     <div>
       <p>Use the input field below to rename this page!</p>
-      <input onChange={({target}) => setName(target.value)} value={name} type='text' />
+      <input onChange={({ target }) => setName(target.value)} value={name} type="text" />
     </div>
   );
 }
@@ -238,23 +233,23 @@ function PageTitle() {
 - Some effects require cleanup. For example, we might want to add event listeners to some element in the DOM, beyond the JSX in our component. When we [add event listeners to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), it is important to remove those event listeners when we are done with them to avoid [memory leaks](https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/)!
 
 ```javascript
-useEffect(()=>{
+useEffect(() => {
   document.addEventListener('keydown', handleKeyPress);
   return () => {
     document.removeEventListener('keydown', handleKeyPress);
   };
-})
+});
 ```
 
 - The `useEffect()` function calls its first argument (the effect) **after each time a component renders**.
 - It is common, when defining function components, to run an effect only when the component mounts (renders the first time), but not when the component re-renders.
-- The Effect Hook makes this very easy for us to do! If we want to only call our effect after the first render, we pass an empty array to `useEffect()` as the second argument. This second argument is called the *dependency array*.
+- The Effect Hook makes this very easy for us to do! If we want to only call our effect after the first render, we pass an empty array to `useEffect()` as the second argument. This second argument is called the _dependency array_.
 
 ```javascript
 useEffect(() => {
-  alert("component rendered for the first time");
+  alert('component rendered for the first time');
   return () => {
-    alert("component is being removed from the DOM");
+    alert('component is being removed from the DOM');
   };
 }, []);
 ```
@@ -266,6 +261,7 @@ useEffect(() => {
 - An empty dependency array signals to the Effect Hook that our effect never needs to be re-run, that it doesn’t depend on anything
 - Specifying zero dependencies means that the result of running that effect won’t change and calling our effect once is enough.
 - A dependency array that is not empty signals to the Effect Hook that it can skip calling our effect after re-renders unless the value of one of the variables in our dependency array has changed
+
 ```javascript
 useEffect(() => {
   document.title = `You clicked ${count} times`;
@@ -304,4 +300,3 @@ useEffect(() => {
 | undefined            | every re-render                                |
 | Empty array          | no re-renders                                  |
 | Non-empty array      | when any value in the dependency array changes |
-

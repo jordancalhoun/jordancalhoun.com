@@ -9,3 +9,17 @@ type socialLink = {
   href: string;
   icon: ComponentType;
 };
+
+type Post = {
+  postPath: string;
+  meta: {
+    title: string;
+    date: string;
+    updated: string;
+    categories: string[];
+    coverImage: string;
+    coverWidth: number;
+    coverHeight: number;
+    excerpt: string;
+  };
+};

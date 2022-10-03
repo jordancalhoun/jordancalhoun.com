@@ -1,13 +1,13 @@
 ---
 title: "Let's learn SvelteKit by building a static Markdown blog from scratch"
-date: "2021-12-27"
-updated: "2022-09-06"
+date: '2021-12-27'
+updated: '2022-09-06'
 categories:
-  - "svelte"
-  - "javascript"
-  - "web"
-  - "sass"
-coverImage: "blog-banner.png"
+  - 'svelte'
+  - 'javascript'
+  - 'web'
+  - 'sass'
+coverImage: 'blog-banner.png'
 coverWidth: 16
 coverHeight: 9
 excerpt: Learn the fundamentals of SvelteKit by building a statically generated blog from scratch, with Markdown support, Sass, an API, and an RSS feed.
@@ -25,17 +25,15 @@ Other tools like [Astro](https://astro.build/), [Eleventy](https://www.11ty.dev/
 
 However, I still feel SvelteKit is worthy of serious consideration in that regard. Its capabilities are much more broad and flexible than traditional SSGs, and there's plenty unique to love about both its developer and user experiences. So this post will be aimed at smoothing out that initial learning curve, to help you understand and take advantage of SvelteKit's wide range of possibilities.
 
-
 ## What we'll cover, and what to know first
 
 **This is a walkthrough of using SvelteKit to set up a prerendered static blog with Markdown, Sass and an API.** (_That's how this site is built, by the way._)
 
 This is _also_ an intro to SvelteKit itself, with a good overview of SvelteKit fundamentals that should be transferable to _any_ project.
 
-Finally, this is _fun_!*
+Finally, this is _fun_!\*
 
-_*My opinion; citation needed_
-
+_\*My opinion; citation needed_
 
 ### You'll get the most out of this if you:
 
@@ -48,7 +46,6 @@ _*My opinion; citation needed_
 Finally, if you don't _really_ want to go through the whole tutorial and would rather just have a nice blog starter all ready to go, check out my [SvelteKit blog starter here](https://github.com/josh-collinsworth/sveltekit-blog-starter). (It's much more fleshed-out than what we'll build here, but the underlying concepts are the same.)
 
 **Let's get started!**
-
 
 ## Creating a new SvelteKit app
 
@@ -63,8 +60,6 @@ When you run that `init` command, SvelteKit will ask you some questions about yo
 ![SvelteKit's setup prompt for which type of project you want to create; boilerplate, or demo](/images/post_images/sveltekit-init.png)
 
 We'll select the "Skeleton project" option. (_Note: **not** "Library skeleton project;" we're just building a site, not a library._)
-
-
 
 The setup tool will also ask for your preferences on TypeScript, ESlint, and Prettier. For simplicity's sake, I won't use TypeScript, but you're welcome to if you like. (Svelte works quite well with it.)
 
@@ -87,12 +82,9 @@ The skeleton project is definitely unexciting. There isn't even any CSS yet. But
 
 This is our blank canvas, and we'll get some paint on it soon enough.
 
-
 ## Routing in SvelteKit
 
 Like many frameworks (and for that matter, PHP), SvelteKit has a directory-based approach to routing and pages; the structure of `src/routes/` will mirror the structure of your website.
-
-
 
 So, from inside `src/routes`:
 
@@ -101,9 +93,6 @@ So, from inside `src/routes`:
 - `blog/+page.svelte` would be be the `/blog` page
 - `blog/some-post/+page.svelte` becomes `/blog/some-post`
 
-
-
-
 ### Adding pages
 
 For starters, just to get some pages on our site, let's create `about`, `contact`, and `blog` folders inside of `src/routes`. (We can always delete or modify them later.)
@@ -111,7 +100,6 @@ For starters, just to get some pages on our site, let's create `about`, `contact
 Within each of those folders, we'll add a `+page.svelte` file, to serve as the route's contents; the stuff people actually see when they navigate to that route on your site.
 
 Within each of those files, let's toss a quick heading, and maybe some text, just so we can see a little content.
-
 
 ```svelte
 <!-- about/+page.svelte -->
@@ -149,7 +137,6 @@ Our `src/routes` folder should now look like this:
 ```
 
 At this point, you could visit `/contact`, `/about`, and/or `/blog` to see the pages we just created. There's not much there yet, of course, but it's nice to at least see that routing is taken care of for us automatically, just by creating folders inside `routes` and adding a `+page.svelte` file inside them.
-
 
 ### Adding a layout
 

@@ -1,16 +1,11 @@
 <script lang="ts">
   import { generateFriendlyDate } from '$lib/utils/date';
-  import Callout from '$lib/components/Callout.svelte';
   import type { PageData } from './$types';
 
   export let data: PageData;
 
   const { title, date, updated, categories, coverImage, coverWidth, coverHeight, excerpt } =
     data.meta;
-
-  const goBack = () => {
-    history.back();
-  };
 
   const friendlyDate = generateFriendlyDate(date, true);
 </script>
@@ -80,8 +75,16 @@
       md:block
     "
   />
-  <div class="px-7">
-  {@html data.PostContent}
-
+  <div class="
+    px-7
+    md:px-0
+    first-line:uppercase
+    first-line:tracking-widest
+    first-letter:text-7xl
+    first-letter:font-bold
+    first-letter:mr-3
+    first-letter:float-left
+    first-line:font-serif">
+    {@html data.PostContent}
   </div>
 </article>
