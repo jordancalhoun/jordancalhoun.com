@@ -8,14 +8,14 @@
 
 <AboutMe />
 
-<div class="flex px-20 mx-auto max-w-7xl">
-  <div class="mt-16 mr-20">
+<div class="lg:flex px-20 mx-auto max-w-7xl">
+  <div class="mt-16 lg:mr-20">
     {#each data.posts as post}
       <BlogExcerpt {post} />
     {/each}
   </div>
   <div>
-    <div class="mt-20 mr-20 w-96">
+    <div class="mt-20 lg:mr-20 lg:w-96">
       <h3 class="text-neutral-800 text-lg font-semibold">Recommendation of the Month</h3>
       <iframe
         title="Album of the Month Spotify"

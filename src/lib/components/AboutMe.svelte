@@ -6,11 +6,6 @@
   import TwitterIcon from "./icons/TwitterIcon.svelte";
   import YouTubeIcon from "./icons/YouTubeIcon.svelte";
 
-  type socialLink = {
-    name: string;
-    href: string;
-    icon: ComponentType;
-  }
   const socialLinks: socialLink[] = [
         {
           name: "Github",
@@ -59,7 +54,7 @@
         {/each}
       </div>
     </div>
-    <div class="min-w-fit my-auto">
+    <div class="min-w-fit my-auto hidden lg:block">
       <img src="/images/profile-picture.jpeg" alt="Jordan and Brinley"  class="w-60 rounded mx-8" />
     </div>
   </div>

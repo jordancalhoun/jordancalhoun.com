@@ -15,14 +15,9 @@
       first:ml-0
       last:mr-0
       text-white
+      hover:text-pink-500
     "
 >
     {linkText}
     <ActivePageIndicator active={"/" + currentPath.split("/")[1] === href} />
 </a>
-
-<style>
-  a:hover {
-    color: #FF3C00;
-  }
-</style>

@@ -2,59 +2,40 @@
     import { PopoverPanel, PopoverButton } from "@rgossiaux/svelte-headlessui";
     import { slide  } from 'svelte/transition';
     import { quintOut } from 'svelte/easing';
-    import { Link, XMark } from 'svelte-heros-v2';
+    import { XMark } from 'svelte-heros-v2';
+    import GithubIcon from "../components/icons/GithubIcon.svelte";
+    import InstagramIcon from "../components/icons/InstagramIcon.svelte";
+    import SpotifyIcon from "../components/icons/SpotifyIcon.svelte";
+    import TwitterIcon from "../components/icons/TwitterIcon.svelte";
+    import YouTubeIcon from "../components/icons/YouTubeIcon.svelte";
 
-    // TODO: Remove this, and links below to use props
-    type navLink = {
-        name: string;
-        href: string;
-        src?: string;
-    }
+    export let navLinks: navLink[];
 
-    const navLinks: navLink[] = [
-        {
-            name: "Blog",
-            href: "/blog"
-        },
-        {
-            name: "Mortise & Co.",
-            href: "/"
-        },
-        {
-            name: "Code Carton",
-            href: "/"
-        },
-        {
-            name: "Contact",
-            href: "/"
-        },
-    ]
-
-    const socialLinks: navLink[] = [
+    const socialLinks: socialLink[] = [
         {
             name: "Github",
             href:"https://github.com/jordancalhoun",
-            src: "/images/social-icons/Github.svg"
+            icon: GithubIcon
         },
         {
             name: "Twitter",
             href:"https://twitter.com/jordancalhoun",
-            src: "/images/social-icons/Twitter.svg"
+            icon: TwitterIcon
         },
         {
             name: "Spotify",
             href:"https://open.spotify.com/user/jordancalhoun?si=6d2a862877bd4334",
-            src: "/images/social-icons/Spotify.svg"
+            icon: SpotifyIcon
         },
         {
             name: "YouTube",
             href:"https://www.youtube.com/channel/UChHHysDsAnjZ_rnzXbwI59A",
-            src: "/images/social-icons/YouTube.svg"
+            icon: YouTubeIcon
         },
         {
             name: "Instagram",
             href:"https://instagram.com/mortiseco",
-            src: "/images/social-icons/Instagram.svg"
+            icon: InstagramIcon
         },
     ]
 </script>
@@ -75,7 +56,7 @@
             </div>
 
 
-            <ul class="font-bold text-xls text-black py-5">
+            <ul class="font-bold text-xls text-neutral-900 py-5">
                 {#each navLinks as link}
                     <a href={link.href} class="hover:text-violet-600 bg-slate-100">
                         <li class="p-2 rounded my-1 text-2xl hover:bg-gray-50">{link.name}</li>
@@ -85,12 +66,9 @@
             <div class="border-t-2 border-t-slate-200 pt-5">
                 <ul >
                     {#each socialLinks as link}
-                    <a href={link.href}>
-                        <li class="w-auto h-auto inline-block p-3 rounded hover:bg-gray-100">
-                            <!-- TODO: Update links to be svg componenents with hover state -->
-                            <img src={link.src} alt={link.name} />
-                        </li>
-                    </a>
+                        <a href={link.href} class="w-auto h-auto inline-block p-3" target="_blank">
+                            <svelte:component this={link.icon} class="text-neutral-800 hover:text-violet-600"/>
+                        </a>
                     {/each}
                 </ul>
             </div>

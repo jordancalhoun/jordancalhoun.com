@@ -46,14 +46,15 @@
                     items-center
                     justify-end
                     rounded-sm
-                    bg-indigo-600 p-2
+                    bg-pink-600
+                    p-2
                     text-white
-                    hover:bg-indigo-700
+                    hover:bg-pink-700
                     hover:text-gray-200
                     focus:outline-none
                     focus:ring-2
                     focus:ring-inset
-                    focus:ring-indigo-500
+                    focus:ring-pink-500
                 ">
                     <span class="sr-only">Open menu</span>
                     <Bars3 class="h-6 w-6" aria-hidden="true" />
@@ -61,7 +62,7 @@
             </div>
 
             <!-- Mobile Navigation Popover -->
-            <NavPopoverPanel />
+            <NavPopoverPanel {navLinks} />
             <div class="md:flex hidden font-lg">
                 {#each navLinks as link}
                     <NavLink currentPath={path} href="{link.href}" linkText={link.name} />
