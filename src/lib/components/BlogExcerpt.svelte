@@ -22,10 +22,9 @@
     mt-2
     inline-block
     text-sm
-    after:content-['_&#8250;']
     hover:text-pink-900
     "
   >
-    Read More
+    Read More &#8250;
   </a>
 </div>

@@ -4,7 +4,10 @@ date: '2022-09-28'
 categories:
   - 'javascript'
   - 'programing'
-excerpt: In the latest versions of React, function components can do everything that class components can do. In most cases, however, function components offer a more elegant, concise way of creating React components.
+coverImage: 'blog-banner.png'
+coverWidth: 16
+coverHeight: 9
+excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare suspendisse sed nisi lacus. Sem viverra aliquet eget sit amet tellus cras. Ut lectus arcu bibendum at varius vel pharetra. Tortor consequat id porta nibh. Sagittis.
 ---
 
 > In the latest versions of React, **function components can do everything that class components can do**. In most cases, however, **function components offer a more elegant, concise way of creating React components.**

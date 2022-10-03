@@ -1,5 +1,5 @@
 ---
-title: "Let's learn SvelteKit by building a static Markdown blog from scratch"
+title: 'Lorem ipsum dolor sit amet'
 date: '2021-12-27'
 updated: '2022-09-06'
 categories:
@@ -10,144 +10,15 @@ categories:
 coverImage: 'blog-banner.png'
 coverWidth: 16
 coverHeight: 9
-excerpt: Learn the fundamentals of SvelteKit by building a statically generated blog from scratch, with Markdown support, Sass, an API, and an RSS feed.
+excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare suspendisse sed nisi lacus. Sem viverra aliquet eget sit amet tellus cras. Ut lectus arcu bibendum at varius vel pharetra. Tortor consequat id porta nibh. Sagittis.
 ---
 
-If you've ever recommended a favorite book, movie, or TV show to a friend who didn't enjoy it at all, you know exactly how I felt when I saw this message from a colleague:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare suspendisse sed nisi lacus. Sem viverra aliquet eget sit amet tellus cras. Ut lectus arcu bibendum at varius vel pharetra. Tortor consequat id porta nibh. Sagittis purus sit amet volutpat. Semper eget duis at tellus. Sem et tortor consequat id porta nibh venenatis cras sed. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Faucibus interdum posuere lorem ipsum dolor. Venenatis tellus in metus vulputate eu scelerisque felis. Viverra maecenas accumsan lacus vel facilisis. Mi ipsum faucibus vitae aliquet. Eget aliquet nibh praesent tristique. Orci a scelerisque purus semper eget duis at tellus at.
 
-> man I just tried to hello world SvelteKit and it is NOT for me
+Praesent tristique magna sit amet purus gravida. Enim ut tellus elementum sagittis vitae et. Adipiscing at in tellus integer feugiat. Massa ultricies mi quis hendrerit dolor. Morbi tristique senectus et netus et malesuada fames ac. Lacinia quis vel eros donec ac. Blandit massa enim nec dui nunc mattis enim ut tellus. Mauris augue neque gravida in fermentum. Sagittis eu volutpat odio facilisis mauris sit amet massa. Dolor magna eget est lorem ipsum dolor sit. Dictum at tempor commodo ullamcorper a lacus vestibulum. A scelerisque purus semper eget duis at tellus at urna. In mollis nunc sed id semper risus in. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Non odio euismod lacinia at quis risus sed vulputate. Ornare arcu odio ut sem. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien.
 
-I love [Svelte](https://svelte.dev), and I've talked plenty about how much I've enjoyed [rewriting this site](/blog/converting-from-gridsome-to-sveltekit) using [SvelteKit](https://kit.svelte.dev). So my first reaction, of course, was disappointment. What went wrong?
+Arcu ac tortor dignissim convallis. Enim ut sem viverra aliquet eget. Lectus arcu bibendum at varius vel pharetra vel. Egestas diam in arcu cursus euismod. Nibh venenatis cras sed felis eget velit. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Convallis convallis tellus id interdum velit laoreet id. Et netus et malesuada fames ac turpis egestas. Fames ac turpis egestas maecenas pharetra convallis posuere. Etiam non quam lacus suspendisse faucibus interdum posuere. At lectus urna duis convallis convallis tellus id. Netus et malesuada fames ac turpis egestas sed tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Sed odio morbi quis commodo odio. Sollicitudin aliquam ultrices sagittis orci a. Nunc eget lorem dolor sed viverra ipsum.
 
-But as I considered their reaction, I realized: it was valid.
+Turpis cursus in hac habitasse. Quis viverra nibh cras pulvinar. Scelerisque in dictum non consectetur a erat nam at. Mauris augue neque gravida in fermentum et sollicitudin. Mauris augue neque gravida in fermentum. Aliquet bibendum enim facilisis gravida neque convallis. Ac turpis egestas integer eget aliquet nibh. Dolor sed viverra ipsum nunc aliquet. Mi sit amet mauris commodo. Amet nisl purus in mollis nunc sed. Pellentesque sit amet porttitor eget dolor morbi. Phasellus faucibus scelerisque eleifend donec pretium. Tellus rutrum tellus pellentesque eu tincidunt. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Ultrices sagittis orci a scelerisque purus semper eget. Mauris ultrices eros in cursus turpis massa tincidunt dui.
 
-Other tools like [Astro](https://astro.build/), [Eleventy](https://www.11ty.dev/), or [Gatsby](https://www.gatsbyjs.com/) will likely get you up and running faster, since that's their sole focus. (_At one point, at least, even the SvelteKit docs admitted its focus was not making the fastest static site generator._)
-
-However, I still feel SvelteKit is worthy of serious consideration in that regard. Its capabilities are much more broad and flexible than traditional SSGs, and there's plenty unique to love about both its developer and user experiences. So this post will be aimed at smoothing out that initial learning curve, to help you understand and take advantage of SvelteKit's wide range of possibilities.
-
-## What we'll cover, and what to know first
-
-**This is a walkthrough of using SvelteKit to set up a prerendered static blog with Markdown, Sass and an API.** (_That's how this site is built, by the way._)
-
-This is _also_ an intro to SvelteKit itself, with a good overview of SvelteKit fundamentals that should be transferable to _any_ project.
-
-Finally, this is _fun_!\*
-
-_\*My opinion; citation needed_
-
-### You'll get the most out of this if you:
-
-- Know the fundamentals of front-end development and JavaScript;
-- Have at least a basic understanding of Svelte already. (You can probably follow along regardless, but I'd recommend the [Svelte tutorial](https://svelte.dev/tutorial/basics) first if you're brand-new);
-- Know the basics of both [Markdown](https://www.markdowntutorial.com/) and [Sass](https://sass-lang.com/);
-- Understand the basics of fetching JSON from an API; and
-- Know how to install packages with [npm](https://www.npmjs.com/), and have npm installed already.
-
-Finally, if you don't _really_ want to go through the whole tutorial and would rather just have a nice blog starter all ready to go, check out my [SvelteKit blog starter here](https://github.com/josh-collinsworth/sveltekit-blog-starter). (It's much more fleshed-out than what we'll build here, but the underlying concepts are the same.)
-
-**Let's get started!**
-
-## Creating a new SvelteKit app
-
-To generate a new SvelteKit project, run this in your terminal (naturally, you can change `my-app` to whatever other title you prefer):
-
-```bash
-npm create svelte@latest my-app
-```
-
-When you run that `init` command, SvelteKit will ask you some questions about your project and how you want it set up:
-
-![SvelteKit's setup prompt for which type of project you want to create; boilerplate, or demo](/images/post_images/sveltekit-init.png)
-
-We'll select the "Skeleton project" option. (_Note: **not** "Library skeleton project;" we're just building a site, not a library._)
-
-The setup tool will also ask for your preferences on TypeScript, ESlint, and Prettier. For simplicity's sake, I won't use TypeScript, but you're welcome to if you like. (Svelte works quite well with it.)
-
-Once you've made your choices, after a moment of installation, you should see `Your project is ready!` appear in your terminal, along with next steps and helpful links:
-
-!['Your project is ready!' message appears in the terminal, along with confirmation of the options we've chosen and helpful links to get started.](/images/post_images/sveltekit-installation-confirmation.png)
-
-At this point, let's open up the project in [VS Code](https://code.visualstudio.com/) (or your text editor of choice). Then in the terminal, install the dependencies, and then run the dev server:
-
-```bash
-npm install
-npm run dev -- --open
-```
-
-Complete those commands, and our new site will be running in a browser window!
-
-![The default welcome page for a new SvelteKit project](/images/post_images/welcome-to-sveltekit.png)
-
-The skeleton project is definitely unexciting. There isn't even any CSS yet. But that's ok; it gives us the freedom to style our app however we like, without the need to remove or work around any existing code.
-
-This is our blank canvas, and we'll get some paint on it soon enough.
-
-## Routing in SvelteKit
-
-Like many frameworks (and for that matter, PHP), SvelteKit has a directory-based approach to routing and pages; the structure of `src/routes/` will mirror the structure of your website.
-
-So, from inside `src/routes`:
-
-- `+page.svelte` is the homepage (`/`)
-- `about/+page.svelte` would become the `/about` page
-- `blog/+page.svelte` would be be the `/blog` page
-- `blog/some-post/+page.svelte` becomes `/blog/some-post`
-
-### Adding pages
-
-For starters, just to get some pages on our site, let's create `about`, `contact`, and `blog` folders inside of `src/routes`. (We can always delete or modify them later.)
-
-Within each of those folders, we'll add a `+page.svelte` file, to serve as the route's contents; the stuff people actually see when they navigate to that route on your site.
-
-Within each of those files, let's toss a quick heading, and maybe some text, just so we can see a little content.
-
-```svelte
-<!-- about/+page.svelte -->
-<h1>Hi, I'm Josh!</h1>
-
-<p>This is my about page.</p>
-```
-
-```svelte
-<!-- contact/+page.svelte -->
-<h1>Get in touch</h1>
-
-<p><a href="mailto:me@my.tld">Email me!</a></p>
-```
-
-```svelte
-<!-- blog/+page.svelte -->
-<h1>Blog</h1>
-
-<p>My blog posts will go here eventually…</p>
-```
-
-Our `src/routes` folder should now look like this:
-
-```fs
-📂 src
-┗ 📂 routes
-  ┣ 📜 +page.svelte
-  ┣ 📂 blog
-  ┃ ┗ 📜 +page.svelte
-  ┣ 📂 about
-  ┃ ┗ 📜 +page.svelte
-  ┗ 📂 contact
-    ┗ 📜 +page.svelte
-```
-
-At this point, you could visit `/contact`, `/about`, and/or `/blog` to see the pages we just created. There's not much there yet, of course, but it's nice to at least see that routing is taken care of for us automatically, just by creating folders inside `routes` and adding a `+page.svelte` file inside them.
-
-### Adding a layout
-
-Most sites and apps have some elements that are reused on every page (a `<header>` and `<footer>` being the most common and obvious examples). Since adding those to every page would be tedious and error-prone, SvelteKit (like many other frameworks) conveniently lets us define [layouts](https://kit.svelte.dev/docs/routing#layout).
-
-Inside of `src/routes`, make a new file named `+layout.svelte`.
-
-```fs
-📂 src
-┗ 📂 routes
-  ┗ 📜 +layout.svelte
-```
-
-**This file has a special role**: SvelteKit automatically checks `routes` (and all its subdirectories) for a `+layout.svelte` file. That layout will "wrap" all the content loaded from that route and its sub-routes.
+Aliquam nulla facilisi cras fermentum odio eu. Blandit turpis cursus in hac habitasse platea. Sem nulla pharetra diam sit. Eleifend donec pretium vulputate sapien nec. Dictum sit amet justo donec enim diam vulputate ut pharetra. A arcu cursus vitae congue mauris rhoncus. Dolor sit amet consectetur adipiscing elit. Tincidunt vitae semper quis lectus nulla at volutpat diam. Netus et malesuada fames ac. Varius vel pharetra vel turpis nunc. Sapien nec sagittis aliquam malesuada. Eget gravida cum sociis natoque penatibus et magnis dis. Odio aenean sed adipiscing diam. Consequat id porta nibh venenatis. Quisque egestas diam in arcu cursus euismod quis viverra. Sed turpis tincidunt id aliquet risus feugiat. Non odio euismod lacinia at. Tellus orci ac auctor augue. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.
