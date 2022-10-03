@@ -27,7 +27,7 @@
     <div>
       <h2 class="text-4xl font-bold text-violet-50 mb-7">Hi 👋, I'm Jordan</h2>
       <p class="text-violet-50 text-xl leading-10">
-        <img src="/images/profile-picture.jpeg" alt="Jordan and Brinley"  class="rotate-3 w-32 rounded mx-8 float-right border-4 mt-6 md:hidden" />
+        <img src="/images/profile-picture.webp" alt="Jordan and Brinley"  class="rotate-3 w-32 rounded mx-8 float-right border-4 mt-6 md:hidden" />
         <span class="font-bold">Full stack developer, sysadmin, woodworker.</span>
         I started coding when I was 14 and have been coding off and on ever since.
         I am a father of two, husband of one.
@@ -43,7 +43,7 @@
       </div>
     </div>
     <div class="min-w-fit my-auto hidden md:block">
-      <img src="/images/profile-picture.jpeg" alt="Jordan and Brinley"  class="w-60 rounded mx-8" />
+      <img src="/images/profile-picture.webp" alt="Jordan and Brinley"  class="w-60 rounded mx-8" />
     </div>
   </div>
 </div>
