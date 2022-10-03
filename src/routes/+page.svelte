@@ -36,7 +36,7 @@
         loading="lazy">
       </iframe>
 
-      <h3 class="text-neutral-800 text-lg font-semibold mt-5">My Playlist</h3>
+      <h3 class="text-neutral-800 text-lg font-semibold mt-5">Music I'm digging</h3>
       <iframe
         title="Spotify Playlist"
         style="border-radius:8px"

@@ -30,7 +30,7 @@
     ]
 </script>
 
-<PopoverPanel class="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
+<PopoverPanel class="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden z-50">
     <div class="divide-y-2 divide-gray-50 bg-white shadow-lg ring-1 ring-black ring-opacity-5" transition:slide="{{delay: 100, duration: 300, easing: quintOut }}">
         <div class="px-6 pt-4 pb-5">
             <div class="flex items-center justify-between">
