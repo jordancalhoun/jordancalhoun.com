@@ -26,17 +26,7 @@
             name: "Spotify",
             href:"https://open.spotify.com/user/jordancalhoun?si=6d2a862877bd4334",
             icon: SpotifyIcon
-        },
-        {
-            name: "YouTube",
-            href:"https://www.youtube.com/channel/UChHHysDsAnjZ_rnzXbwI59A",
-            icon: YouTubeIcon
-        },
-        {
-            name: "Instagram",
-            href:"https://instagram.com/mortiseco",
-            icon: InstagramIcon
-        },
+        }
     ]
 </script>
 

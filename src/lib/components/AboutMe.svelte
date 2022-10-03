@@ -1,10 +1,7 @@
 <script lang="ts">
-  import type { ComponentType } from "svelte";
   import GithubIcon from "./icons/GithubIcon.svelte";
-  import InstagramIcon from "./icons/InstagramIcon.svelte";
   import SpotifyIcon from "./icons/SpotifyIcon.svelte";
   import TwitterIcon from "./icons/TwitterIcon.svelte";
-  import YouTubeIcon from "./icons/YouTubeIcon.svelte";
 
   const socialLinks: socialLink[] = [
         {
@@ -21,17 +18,7 @@
           name: "Spotify",
           href:"https://open.spotify.com/user/jordancalhoun?si=6d2a862877bd4334",
           icon: SpotifyIcon
-        },
-        {
-          name: "YouTube",
-          href:"https://www.youtube.com/channel/UChHHysDsAnjZ_rnzXbwI59A",
-          icon: YouTubeIcon
-        },
-        {
-          name: "Instagram",
-          href:"https://instagram.com/mortiseco",
-          icon: InstagramIcon
-        },
+        }
     ]
 </script>
 
@@ -40,7 +27,8 @@
     <div>
       <h2 class="text-4xl font-bold text-violet-50 mb-7">Hi 👋, I'm Jordan</h2>
       <p class="text-violet-50 text-xl leading-10">
-        <span class="font-bold">Full stack developer, sysadmin,woodworker.  </span>
+        <img src="/images/profile-picture.jpeg" alt="Jordan and Brinley"  class="rotate-3 w-32 rounded mx-8 float-right border-4 mt-6 md:hidden" />
+        <span class="font-bold">Full stack developer, sysadmin, woodworker.</span>
         I started coding when I was 14 and have been coding off and on ever since.
         I am a father of two, husband of one.
         Along with programming, I am a woodworker with a focus on fine furniture.
