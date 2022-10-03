@@ -25,6 +25,8 @@
   <meta name="twitter:image" content="http//localhost:5173/images/blog/{coverImage}" />
 </svelte:head>
 
+
+<!-- TODO: Implement Share Actions -->
 <article class="mx-auto max-w-4xl md:my-10 md:px-10 prose prose-neutral">
   <img
     src="/images/blog/{coverImage}"

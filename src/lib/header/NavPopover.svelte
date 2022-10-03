@@ -11,17 +11,9 @@
             href: "/blog"
         },
         {
-            name: "Projects",
-            href: "/projects"
-        },
-        {
             name: "Playlists",
             href: "/playlists"
-        },
-        {
-            name: "Contact",
-            href: "/contact"
-        },
+        }
     ]
 
     let path: string;

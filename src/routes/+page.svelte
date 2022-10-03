@@ -4,7 +4,15 @@
   import type { PageData } from './$types';
 
   export let data: PageData;
+  const title = "Jordan Calhoun"
 </script>
+
+<svelte:head>
+  <!-- TODO: Be sure to add your image files and un-comment the lines below, update URL -->
+  <title>{title}</title>
+  <meta property="og:title" content={title} />
+  <meta name="twitter:title" content={title} />
+</svelte:head>
 
 <AboutMe />
 
