@@ -25,7 +25,6 @@
   <meta name="twitter:image" content="http//localhost:5173/images/blog/{coverImage}" />
 </svelte:head>
 
-
 <!-- TODO: Implement Share Actions -->
 <article class="mx-auto max-w-4xl md:my-10 md:px-10 prose prose-neutral">
   <img
@@ -77,7 +76,8 @@
       md:block
     "
   />
-  <div class="
+  <div
+    class="
     px-7
     md:px-0
     first-line:uppercase
@@ -86,7 +86,8 @@
     first-letter:font-bold
     first-letter:mr-3
     first-letter:float-left
-    first-line:font-serif">
+    first-line:font-serif"
+  >
     {@html data.PostContent}
   </div>
 </article>

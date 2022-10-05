@@ -1,17 +1,3 @@
-export type Post = {
-  path: string;
-  meta: {
-    title: string;
-    date: string;
-    updated: string;
-    categories: string[];
-    coverImage: string;
-    coverWidth: number;
-    coverHeight: number;
-    excerpt: string;
-  };
-};
-
 export const fetchMarkdownPosts = async ({ limit = 10, offset = 0, category = '' } = {}): Promise<
   Post[]
 > => {
@@ -19,7 +5,7 @@ export const fetchMarkdownPosts = async ({ limit = 10, offset = 0, category = ''
     Object.entries(import.meta.glob('$lib/posts/*.md')).map(async ([path, resolver]) => {
       const { metadata }: any = await resolver();
       return {
-        path: `/blog/${path.slice(15, -3)}`,
+        postPath: `/blog/${path.slice(15, -3)}`,
         meta: metadata,
       };
     })
