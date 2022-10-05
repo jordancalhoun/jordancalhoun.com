@@ -1,10 +1,11 @@
 <script lang="ts">
   import AboutMe from '$lib/components/AboutMe.svelte';
   import BlogExcerpt from '$lib/components/BlogExcerpt.svelte';
+  import Github from '$lib/social-icons/Github.svelte';
   import type { PageData } from './$types';
 
   export let data: PageData;
-  const title = "Jordan Calhoun"
+  const title = 'Jordan Calhoun';
 </script>
 
 <svelte:head>
@@ -32,8 +33,8 @@
         height="80"
         frameBorder="0"
         allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy">
-      </iframe>
+        loading="lazy"
+      />
 
       <h3 class="text-neutral-800 text-lg font-semibold mt-5">Music I'm digging</h3>
       <iframe
@@ -44,8 +45,30 @@
         height="380px"
         frameBorder="0"
         allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy">
-      </iframe>
+        loading="lazy"
+      />
     </div>
   </div>
 </div>
+
+<footer class="bg-neutral-50 p-7">
+  <div class="md:px-20 mx-auto max-w-7xl">
+    <p class="my-3 text-neutral-500">
+      Find a bug? Submit a <a
+        href="https://github.com/jordancalhoun/jordancalhoun.com"
+        alt="Website Git Repository"
+        class="hover:text-pink-700"
+        target="_blank">PR here</a
+      >.
+    </p>
+    <p class="text-neutral-400">
+      &copy; {new Date().getFullYear()} Jordan Calhoun, Built with
+      <a
+        href="kit.svelte.com"
+        alt="SvelteKit Landing Page"
+        target="_blank"
+        class="hover:text-pink-700">SvelteKit</a
+      >
+    </p>
+  </div>
+</footer>
