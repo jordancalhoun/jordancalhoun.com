@@ -10,7 +10,7 @@
 
 <div class="mx-auto p-10">
   <h1 class="text-center">
-    <img src="images/mortise-and-code-logo.svg" alt="Mortise x Code blog logo" class="mx-auto" />
+    <img src="/images/mortise-and-code-logo.svg" alt="Mortise x Code blog logo" class="mx-auto" />
     <span class="text-neutral-500">a productivity, programming, and personal challenges blog</span>
   </h1>
 </div>
@@ -28,7 +28,15 @@
 </div>
 
 <div
-  class="mx-auto md:max-w-5xl lg:max-w-7xl mt-12 grid lg:grid-cols-3 md:grid-cols-2 p-5 justify-items-center"
+  class="
+    mx-auto
+    md:max-w-5xl
+    lg:max-w-7xl
+    mt-12 grid
+    lg:grid-cols-3
+    md:grid-cols-2
+    p-5
+    justify-items-center"
 >
   {#each posts as post}
     <VerticalBlogCard {post} />

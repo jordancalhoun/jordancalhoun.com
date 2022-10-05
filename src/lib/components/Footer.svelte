@@ -1,5 +1,7 @@
 <footer class="">
-  <div class="mx-auto max-w-5xl px-2 pt-5 mb-15 border-t-2 border-neutral-50 grid grid-cols-2">
+  <div
+    class="mx-auto md:max-w-4xl lg:max-w-6xl px-5 pt-5 mb-15 border-t-2 border-neutral-50 grid grid-cols-2"
+  >
     <p class="text-neutral-400">
       &copy; {new Date().getFullYear()} Jordan Calhoun
     </p>

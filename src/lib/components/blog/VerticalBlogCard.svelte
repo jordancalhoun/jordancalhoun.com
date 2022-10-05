@@ -6,7 +6,7 @@
 <div class="md:w-80 mb-14">
   <a href={post.postPath} alt="{post.meta.title} article">
     <img
-      src="images/blog/{post.meta.coverImage}"
+      src="/images/blog/{post.meta.coverImage}"
       alt="{post.meta.title} Cover"
       width="100%"
       style="aspect-ratio: {post.meta.coverWidth} / {post.meta.coverHeight};transition: .2s;"
@@ -19,9 +19,9 @@
     </p>
 
     <a href={post.postPath} alt="{post.meta.title} article">
-      <h2 class="text-neutral-800 font-semibold text-xl mb-3 hover:text-pink-600">
+      <h3 class="text-neutral-800 font-semibold text-xl mb-3 hover:text-pink-600">
         {post.meta.title}
-      </h2>
+      </h3>
     </a>
 
     <p class="text-base text-neutral-500 leading-relaxed text-justify">{post.meta.excerpt}</p>
