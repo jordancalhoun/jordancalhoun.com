@@ -64,7 +64,7 @@
     <p class="text-neutral-400">
       &copy; {new Date().getFullYear()} Jordan Calhoun, Built with
       <a
-        href="kit.svelte.com"
+        href="https://kit.svelte.com"
         alt="SvelteKit Landing Page"
         target="_blank"
         class="hover:text-pink-700">SvelteKit</a
