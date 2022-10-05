@@ -16,7 +16,11 @@
 <Header />
 
 {#key data.currentRoute}
-  <main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }} class="mx-auto">
+  <main
+    in:fade={{ duration: 150, delay: 150 }}
+    out:fade={{ duration: 150 }}
+    class="mx-auto selection:bg-pink-300 selection:text-pink-900"
+  >
     <slot />
   </main>
 {/key}
