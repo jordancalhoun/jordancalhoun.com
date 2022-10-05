@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Footer from '$lib/components/Footer.svelte';
   import Header from '$lib/header/Header.svelte';
   import { fade } from 'svelte/transition';
   import '../app.scss';
@@ -15,11 +16,9 @@
 <Header />
 
 {#key data.currentRoute}
-  <main
-    in:fade={{ duration: 150, delay: 150 }}
-    out:fade={{ duration: 150 }}
-    class="mx-auto"
-  >
+  <main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }} class="mx-auto">
     <slot />
   </main>
 {/key}
+
+<Footer />

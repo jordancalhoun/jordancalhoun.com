@@ -1,7 +1,6 @@
 <script lang="ts">
   import AboutMe from '$lib/components/AboutMe.svelte';
   import BlogExcerpt from '$lib/components/BlogExcerpt.svelte';
-  import Github from '$lib/social-icons/Github.svelte';
   import type { PageData } from './$types';
 
   export let data: PageData;
@@ -50,25 +49,3 @@
     </div>
   </div>
 </div>
-
-<footer class="bg-neutral-50 p-7">
-  <div class="md:px-20 mx-auto max-w-7xl">
-    <p class="my-3 text-neutral-500">
-      Find a bug? Submit a <a
-        href="https://github.com/jordancalhoun/jordancalhoun.com"
-        alt="Website Git Repository"
-        class="hover:text-pink-700"
-        target="_blank">PR here</a
-      >.
-    </p>
-    <p class="text-neutral-400">
-      &copy; {new Date().getFullYear()} Jordan Calhoun, Built with
-      <a
-        href="https://kit.svelte.com"
-        alt="SvelteKit Landing Page"
-        target="_blank"
-        class="hover:text-pink-700">SvelteKit</a
-      >
-    </p>
-  </div>
-</footer>
