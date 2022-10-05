@@ -1,5 +1,4 @@
 import type { PageLoad } from './$types';
-import type { Post } from '../../../api/posts/+server';
 
 export const load: PageLoad = async ({ fetch, params }) => {
   const { category } = params;
