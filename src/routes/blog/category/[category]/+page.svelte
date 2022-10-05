@@ -13,19 +13,24 @@
   </h1>
 </div>
 
-<div class="text-center text-neutral-500">
+<div class="text-center text-sm text-neutral-400">
   Filtering by:
   <a
     href="/blog"
     alt="Blog Index"
     class="
-      px-2
-      py-1
-      bg-neutral-100
-      text-neutral-700
-      rounded-sm
-      uppercase text-sm font-bold
-      "
+    px-2
+    py-1
+    mx-2
+    bg-neutral-100
+    rounded
+    text-neutral-500
+    no-underline
+    text-xs
+    font-bold
+    hover:bg-neutral-300
+    hover:text-neutral-700
+    uppercase"
   >
     {data.category} &#x2715
   </a>

@@ -38,11 +38,11 @@
       md:hidden
     "
   />
-  <h1 class="text-center text-gray-800 font-semibold text-4xl mb-5">{title}</h1>
+  <h1 class="text-center text-neutral-800 font-semibold text-4xl mb-5">{title}</h1>
   <p class="text-center">
-    <span class="text-sm text-gray-400">{friendlyDate}</span>
+    <span class="text-sm text-neutral-400">{friendlyDate}</span>
     {#if updated}
-      <p class="text-sm text-gray-400">Updated: {updated}</p>
+      <p class="text-sm text-neutral-400">Updated: {updated}</p>
     {/if}
     {#each categories as category}
       <a
