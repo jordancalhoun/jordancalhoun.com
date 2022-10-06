@@ -12,11 +12,11 @@
     <div class="text-green-700 text-base  p-7 md:p-0">
       <h2 class="font-semibold text-4xl text-green-900">Dovetails &amp; Green Tea</h2>
       <p class="pt-3">
-        Hand cutting dovetails can be a slow & therapudic thing. It allows your mind to slow down
-        and think a little more deeply than it normally would.
+        Hand cutting dovetails can be a slow & therapeutic thing. It allows your mind to slow down
+        and think a little more deeply than it normally might.
       </p>
       <p class="py-3 mb-5">
-        This playlist was created in a low point in my life, which is reflected in many of the
+        This playlist was created at a low point in my life, which is reflected in many of the
         song's themes. It is a series of songs that tend to lead my mind into introspection which
         helped me process a lot of my emotions and thoughts in a healthy way.
       </p>
