@@ -1,6 +1,6 @@
 ---
 title: 'Hello World'
-date: '2022-10-5'
+date: '2022-10-05'
 categories:
   - 'svelte'
   - 'javascript'
