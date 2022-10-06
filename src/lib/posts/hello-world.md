@@ -15,7 +15,7 @@ I am Jordan Calhoun, a 32 year old from Pennsylvania.  Professionally, I am a fu
 
 Welcome to the blog! I wanted to start this blog with a brief introduction on who I am and why this blog exists.
 
-I am Jordan Calhoun, a 32 year old from Pennsylvania. Professionally, I am a full stack developer/ sysadmin/marketer/jack-of-to-many-trades at SAC Energy. I also build fine furniture in my free time.
+I am Jordan Calhoun, a 32 year old from Pennsylvania. Professionally, I am a full stack developer/sysadmin/marketer/jack-of-to-many-trades at SAC Energy. I also build fine furniture in my free time.
 
 ![anchor-nightstand.jpeg](/images/blog/hello-world/anchor-nightstand.jpeg)
 
