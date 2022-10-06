@@ -26,7 +26,7 @@
 </svelte:head>
 
 <!-- TODO: Implement Share Actions -->
-<article class="mx-auto max-w-4xl md:my-10 md:px-10 prose prose-neutral">
+<article class="mx-auto max-w-4xl md:my-10 md:px-10 prose prose-neutral prose-img:rounded-lg">
   <img
     src="/images/blog/{coverImage}"
     alt=""
@@ -74,6 +74,8 @@
       shadow-md
       hidden
       md:block
+      border
+      border-neutral-100
     "
   />
   <div

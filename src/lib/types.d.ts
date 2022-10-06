@@ -21,5 +21,6 @@ type Post = {
     coverWidth: number;
     coverHeight: number;
     excerpt: string;
+    preview: string;
   };
 };

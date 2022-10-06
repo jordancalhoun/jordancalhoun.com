@@ -28,7 +28,7 @@
       </h2>
     </a>
 
-    <p class="text-base text-neutral-500 leading-relaxed">{post.meta.excerpt}</p>
+    <p class="text-base text-neutral-500 leading-relaxed">{post.meta.preview}</p>
 
     <a
       href={post.postPath}
