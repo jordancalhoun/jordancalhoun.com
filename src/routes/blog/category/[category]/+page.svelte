@@ -1,19 +1,13 @@
 <script lang="ts">
   import type { PageData } from './$types';
   import VerticalBlogCard from '$lib/components/blog/VerticalBlogCard.svelte';
-  import { XCircle } from 'svelte-heros-v2';
+  import MortiseCode from '$lib/components/blog/MortiseCode.svelte';
   export let data: PageData;
 </script>
 
-<!-- TODO: Move this into its own component -->
-<div class="mx-auto p-10">
-  <h1 class="text-center">
-    <img src="/images/mortise-and-code-logo.svg" alt="Mortise x Code blog logo" class="mx-auto" />
-    <span class="text-neutral-500">a productivity, programming, and personal challenges blog</span>
-  </h1>
-</div>
+<MortiseCode />
 
-<div class="text-center text-sm text-neutral-400">
+<div class="text-center text-sm text-neutral-400 my-5">
   Filtering by:
   <a
     href="/blog"

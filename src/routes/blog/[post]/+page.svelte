@@ -7,22 +7,22 @@
   const { title, date, updated, categories, coverImage, coverWidth, coverHeight, excerpt } =
     data.meta;
 
-  const friendlyDate = generateFriendlyDate(date, true);
+  const friendlyDate = generateFriendlyDate(date);
+  const friendlyUpdate = updated && generateFriendlyDate(updated);
 </script>
 
 <svelte:head>
-  <!-- TODO: Be sure to add your image files and un-comment the lines below, update URL -->
-  <title>{title}</title>
+  <title>{title} by Jordan Calhoun</title>
   <meta data-key="description" name="description" content={excerpt} />
   <meta property="og:type" content="article" />
   <meta property="og:title" content={title} />
   <meta name="twitter:title" content={title} />
   <meta property="og:description" content={excerpt} />
   <meta name="twitter:description" content={excerpt} />
-  <meta property="og:image" content="http//localhost:5173/images/blog/{coverImage}" />
+  <meta property="og:image" content="https://jordancalhoun.com/images/blog/{coverImage}" />
   <meta property="og:image:width" content={coverWidth} />
   <meta property="og:image:height" content={coverHeight} />
-  <meta name="twitter:image" content="http//localhost:5173/images/blog/{coverImage}" />
+  <meta name="twitter:image" content="https://jordancalhoun.com/images/blog/{coverImage}" />
 </svelte:head>
 
 <!-- TODO: Implement Share Actions -->
@@ -40,9 +40,9 @@
   />
   <h1 class="text-center text-neutral-800 font-semibold text-4xl mb-5">{title}</h1>
   <p class="text-center">
-    <span class="text-sm text-neutral-400">{friendlyDate}</span>
-    {#if updated}
-      <p class="text-sm text-neutral-400">Updated: {updated}</p>
+    <span class="text-sm text-neutral-400">Posted: {friendlyDate}</span>
+    {#if friendlyUpdate}
+      <span class="text-sm text-neutral-400"> - Last updated: {friendlyUpdate}</span>
     {/if}
     {#each categories as category}
       <a

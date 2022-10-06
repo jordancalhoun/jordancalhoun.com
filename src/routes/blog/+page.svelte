@@ -1,5 +1,6 @@
 <script lang="ts">
   import HorizontalBlogCard from '$lib/components/blog/HorizontalBlogCard.svelte';
+  import MortiseCode from '$lib/components/blog/MortiseCode.svelte';
   import VerticalBlogCard from '$lib/components/blog/VerticalBlogCard.svelte';
   import type { PageData } from './$types';
 
@@ -8,12 +9,11 @@
   const posts = data.posts.slice(2);
 </script>
 
-<div class="mx-auto p-10">
-  <h1 class="text-center">
-    <img src="/images/mortise-and-code-logo.svg" alt="Mortise x Code blog logo" class="mx-auto" />
-    <span class="text-neutral-500">a productivity, programming, and personal challenges blog</span>
-  </h1>
-</div>
+<svelte:head>
+  <title>the Mortise &amp; Code Blog</title>
+</svelte:head>
+
+<MortiseCode />
 
 <div class="m-7 hidden md:block">
   {#each featuredPosts as post}

@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Playlists created by Jordan Calhoun</title>
+</svelte:head>
+
 <div class="px-7 my-7 lg:flex md:px-20 mx-auto max-w-7xl">
   <div
     class="bg-green-300 p-8 pl-0 grid grid-cols-[275px_minmax(0px,_1fr)_0px] items-center selection:bg-green-100 selection:text-green-900 rounded-md"
