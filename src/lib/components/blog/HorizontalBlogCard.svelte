@@ -13,7 +13,7 @@
         alt="{post.meta.title} Cover"
         width="350px"
         style="aspect-ratio: {post.meta.coverWidth} / {post.meta.coverHeight};transition: .2s;"
-        class="rounded-lg border border-neutral-200 hover:scale-105 transition-all hover:shadow"
+        class="rounded-lg border border-neutral-200 hover:scale-95 transition-all hover:shadow"
       />
     </a>
   </div>
