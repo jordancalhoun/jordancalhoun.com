@@ -2,14 +2,14 @@
   <title>Playlists created by Jordan Calhoun</title>
 </svelte:head>
 
-<div class="px-7 my-7 lg:flex md:px-20 mx-auto max-w-7xl">
+<div class="px-2 md:px-7 my-2 md:my-7 lg:flex  mx-auto max-w-7xl">
   <div
-    class="bg-green-300 p-8 pl-0 grid grid-cols-[275px_minmax(0px,_1fr)_0px] items-center selection:bg-green-100 selection:text-green-900 rounded-md"
+    class="bg-green-300 p-8 pl-0 md:grid md:grid-cols-[275px_minmax(0px,_1fr)_0px] items-center selection:bg-green-100 selection:text-green-900 rounded-md"
   >
     <div class="flex justify-center">
       <img src="/images/playlists/green-tea-bag.svg" alt="Green Tea Bag Icon" />
     </div>
-    <div class="text-green-700 text-base">
+    <div class="text-green-700 text-base  p-7 md:p-0">
       <h2 class="font-semibold text-4xl text-green-900">Dovetails &amp; Green Tea</h2>
       <p class="pt-3">
         Hand cutting dovetails can be a slow & therapudic thing. It allows your mind to slow down
