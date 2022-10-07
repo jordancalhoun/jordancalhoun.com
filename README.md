@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c07c745f-a17b-46e9-b999-a047d636a163/deploy-status)](https://app.netlify.com/sites/super-mochi-d63e5f/deploys)
+
 # About this repo
 
 Small personal website used for playing around and learning Svelte & Typescript. This is a learning while doing project; therefore, expect some oddities as well as some best practices missed. I will continue to update the repoo as I have time to learn SvelteKit and Typescript more.
