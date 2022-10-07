@@ -4,20 +4,20 @@
 
 <div class="px-2 md:px-7 my-2 md:my-7 lg:flex  mx-auto max-w-7xl">
   <div
-    class="bg-green-300 p-8 pl-0 md:grid md:grid-cols-[275px_minmax(0px,_1fr)_0px] items-center selection:bg-green-100 selection:text-green-900 rounded-md"
+    class="bg-green-300 p-3 md:p-8 md:pl-0 md:grid md:grid-cols-[275px_minmax(0px,_1fr)_0px] items-center selection:bg-green-100 selection:text-green-900 rounded-md"
   >
-    <div class="flex justify-center">
+    <div class="flex justify-center p-5 md:p-0">
       <img src="/images/playlists/green-tea-bag.svg" alt="Green Tea Bag Icon" />
     </div>
-    <div class="text-green-700 text-base  p-7 md:p-0">
+    <div class="text-green-700 text-base pb-5 p-3 md:p-0">
       <h2 class="font-semibold text-4xl text-green-900">Dovetails &amp; Green Tea</h2>
       <p class="pt-3">
         Hand cutting dovetails can be a slow & therapeutic thing. It allows your mind to slow down
-        and think a little more deeply than it normally might.
+        and to think a little more deeply than it normally might.
       </p>
       <p class="py-3 mb-5">
         This playlist was created at a low point in my life, which is reflected in many of the
-        song's themes. It is a series of songs that tend to lead my mind into introspection which
+        songs' themes. It is a series of songs that tend to lead my mind into introspection which
         helped me process a lot of my emotions and thoughts in a healthy way.
       </p>
       <a
@@ -25,7 +25,7 @@
         target="_blank"
         class="
           uppercase
-          px-5
+          px-7
           py-2
           rounded-full
           text-md

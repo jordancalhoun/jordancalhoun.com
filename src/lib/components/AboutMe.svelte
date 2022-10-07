@@ -33,9 +33,9 @@
           class="rotate-3 w-32 rounded mx-8 float-right border-4 mt-6 md:hidden"
         />
         <span class="font-bold">Full stack developer, woodworker, hifi enthusiast.</span>
-        I am currently doing most of my work at SAC Energy; an energy company based out of Bedford, PA.
+        I am currently doing most of my work at SAC Energy, an energy company based out of Bedford, PA.
         I spend my mornings and evenings learning productivity strategies, designing/building furniture,
-        and spending time with my family.
+        coding, and spending time with my family.
       </p>
       <div class="md:flex mt-10 hidden ">
         {#each socialLinks as link}
