@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c07c745f-a17b-46e9-b999-a047d636a163/deploy-status)](https://app.netlify.com/sites/super-mochi-d63e5f/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c07c745f-a17b-46e9-b999-a047d636a163/deploy-status?branch=contact-form)](https://app.netlify.com/sites/super-mochi-d63e5f/deploys)
 
 # About this branch
 
