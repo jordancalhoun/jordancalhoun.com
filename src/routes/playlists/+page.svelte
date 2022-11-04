@@ -20,6 +20,31 @@
         songs' themes. It is a series of songs that tend to lead my mind into introspection which
         helped me process a lot of my emotions and thoughts in a healthy way.
       </p>
+
+      <a
+        href="https://tidal.com/browse/playlist/f915f9be-4e5f-4c04-844a-342352fc208f"
+        target="_blank"
+        class="
+          uppercase
+          px-7
+          py-2
+          rounded-full
+          text-md
+          font-bold
+          text-green-400
+          bg-green-50
+          border-4
+          border-green-200
+          hover:shadow
+          shadow-green-800
+          hover:ring-2
+          ring-green-400
+          transition-all
+          "
+      >
+        Tidal
+      </a>
+
       <a
         href="https://open.spotify.com/playlist/7Bt8uzRoIt0rfMbysXaCQs?si=e401475b77ee4d9f"
         target="_blank"
@@ -41,7 +66,7 @@
           transition-all
           "
       >
-        Listen Now
+        Spotify
       </a>
     </div>
   </div>

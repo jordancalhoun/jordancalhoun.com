@@ -4,8 +4,8 @@
   import { quintOut } from 'svelte/easing';
   import { XMark } from 'svelte-heros-v2';
   import GithubIcon from '../components/icons/GithubIcon.svelte';
-  import SpotifyIcon from '../components/icons/SpotifyIcon.svelte';
   import TwitterIcon from '../components/icons/TwitterIcon.svelte';
+  import TidalIcon from '$lib/components/icons/TidalIcon.svelte';
 
   export let navLinks: navLink[];
 
@@ -21,9 +21,9 @@
       icon: TwitterIcon,
     },
     {
-      name: 'Spotify',
-      href: 'https://open.spotify.com/user/jordancalhoun?si=6d2a862877bd4334',
-      icon: SpotifyIcon,
+      name: 'Tidal',
+      href: 'https://tidal.com/browse/user/168026990',
+      icon: TidalIcon,
     },
   ];
 </script>

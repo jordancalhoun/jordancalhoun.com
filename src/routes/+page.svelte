@@ -24,19 +24,28 @@
   <div>
     <div class="mt-20 lg:mr-20 lg:w-96">
       <h3 class="text-neutral-800 text-lg font-semibold">Recommendation of the Month</h3>
+
       <iframe
-        title="Album of the Month Spotify"
-        style="border-radius:8px"
-        src="https://open.spotify.com/embed/album/6f7bWTe84LiTIlUNkRimVG?utm_source=generator"
+        src="https://embed.tidal.com/albums/247469742?layout=gridify"
+        frameborder="0"
+        allowfullscreen
+        title="Tidal Album of the Month"
         width="100%"
-        height="80"
-        frameBorder="0"
-        allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
+        height="150px"
+        class="rounded-lg"
       />
 
       <h3 class="text-neutral-800 text-lg font-semibold mt-5">Featured Playlist</h3>
       <iframe
+        src="https://embed.tidal.com/playlists/f915f9be-4e5f-4c04-844a-342352fc208f?layout=gridify"
+        frameborder="0"
+        allowfullscreen
+        title="Tidal Featured Playlist"
+        width="100%"
+        height="300px"
+        class="rounded-lg"
+      />
+      <!-- <iframe
         title="Spotify Playlist"
         style="border-radius:8px"
         src="https://open.spotify.com/embed/playlist/7Bt8uzRoIt0rfMbysXaCQs"
@@ -45,7 +54,7 @@
         frameBorder="0"
         allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
-      />
+      /> -->
     </div>
   </div>
 </div>
