@@ -4,7 +4,7 @@
 
 Small personal website used for playing around and learning Svelte & Typescript. This is a learning while doing project; therefore, expect some oddities as well as some best practices missed. I will continue to update the repo as I have time to learn SvelteKit and Typescript more.
 
-If you see any issues and would like to fix please submit a PR, I appricate any help!
+If you see any issues and would like to fix please submit a PR, I appreciate any help!
 
 # Install
 
