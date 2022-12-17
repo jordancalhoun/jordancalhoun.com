@@ -2,6 +2,7 @@
   import GithubIcon from './icons/GithubIcon.svelte';
   import TidalIcon from './icons/TidalIcon.svelte';
   import TwitterIcon from './icons/TwitterIcon.svelte';
+  import SpotifyIcon from './icons/SpotifyIcon.svelte';
 
   const socialLinks: socialLink[] = [
     {
@@ -13,6 +14,11 @@
       name: 'Twitter',
       href: 'https://twitter.com/jordancalhoun',
       icon: TwitterIcon,
+    },
+    {
+      name: 'Spotify',
+      href: 'https://open.spotify.com/user/jordancalhoun?si=72ca47f02de14f36',
+      icon: SpotifyIcon,
     },
     {
       name: 'Tidal',
