@@ -39,7 +39,7 @@
       <iframe
         title="Spotify Playlist"
         style="border-radius:8px"
-        src="https://open.spotify.com/embed/playlist/7Bt8uzRoIt0rfMbysXaCQs"
+        src="https://open.spotify.com/embed/playlist/6W4EqoTMa0dxzcHWBukVhu"
         width="100%"
         height="180px"
         frameBorder="0"
