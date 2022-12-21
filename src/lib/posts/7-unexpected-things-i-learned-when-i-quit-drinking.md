@@ -44,11 +44,11 @@ I have found myself much more confident in social scenarios at work and in daily
 
 **Those little things I know I should do start to happen automatically.**
 
-I have never been good at some basic things like brushing my teeth at night. I have had countless cavities, and often dread the mundane task. When I quit drinking I was able to comprehend the longterm effects of taking 2 minutes out of my night before bed and brushing my teeth. This became a habit fairly quickly and now I would have a hard time no doing these small tasks.
+I have never been good at some basic things like brushing my teeth at night. I have had countless cavities, and often dread the mundane task. When I quit drinking I was able to comprehend the longterm effects of taking 2 minutes out of my night before bed and brushing my teeth. This became a habit fairly quickly and now I would have a hard time not doing these small tasks.
 
 ### My brain is interested in things I never thought about
 
-**Things like productivity systems have compounding impact on everything I do.**
+**Things such as productivity systems have a compounding impact on everything I do.**
 
 Drinking filled up a very large space in my brain. It was always something that was on my mind in some way. Once it stopped taking up that space, it made plenty of room for new things to replace it.
 
