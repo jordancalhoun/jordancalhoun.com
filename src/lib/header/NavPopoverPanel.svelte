@@ -6,6 +6,7 @@
   import GithubIcon from '../components/icons/GithubIcon.svelte';
   import TwitterIcon from '../components/icons/TwitterIcon.svelte';
   import TidalIcon from '$lib/components/icons/TidalIcon.svelte';
+  import SpotifyIcon from '$lib/components/icons/SpotifyIcon.svelte';
 
   export let navLinks: navLink[];
 
@@ -24,6 +25,11 @@
       name: 'Tidal',
       href: 'https://tidal.com/browse/user/168026990',
       icon: TidalIcon,
+    },
+    {
+      name: 'Spotify',
+      href: 'https://open.spotify.com/user/jordancalhoun?si=72ca47f02de14f36',
+      icon: SpotifyIcon,
     },
   ];
 </script>

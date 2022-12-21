@@ -38,7 +38,7 @@
       md:hidden
     "
   />
-  <h1 class="text-center text-neutral-800 font-semibold text-4xl mb-5">{title}</h1>
+  <h1 class="text-center text-neutral-800 font-semibold text-4xl mb-5 p-2">{title}</h1>
   <p class="text-center">
     <span class="text-sm text-neutral-400">Posted: {friendlyDate}</span>
     {#if friendlyUpdate}
