@@ -12,7 +12,7 @@ preview: 'There have been a handful of things that happed when I quit drinking a
 
 There have been a handful of things that happed when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them below.
 
-### Not Everything Is is Alcohols Fault
+### Not Everything Is Alcohols Fault
 
 **When you drink a lot, it’s easy to blame 99% of your problems on drinking.**
 
