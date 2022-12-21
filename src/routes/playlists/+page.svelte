@@ -82,9 +82,9 @@
     <div class="text-yellow-700 text-base pb-5 p-3 md:p-0">
       <h2 class="font-semibold text-4xl text-yellow-900">Mood</h2>
       <p class="pt-3 mb-5">
-        Sometimes you’re just feeling a certain kinda way. Not quite sad, nor angry. Apathetic
-        maybe? This playlist is for those moods where all you need is a set of headphones and a
-        comfy chair.
+        Sometimes you're just feeling a certain kinda way. Not quite sad, nor angry. Apathetic
+        maybe? This playlist is for those moods when all you need is a set of headphones and a comfy
+        chair.
       </p>
 
       <a
@@ -97,7 +97,7 @@
           rounded-full
           text-md
           font-bold
-          text-yellow-700
+          text-yellow-500
           bg-yellow-50
           border-4
           border-yellow-100
