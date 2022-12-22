@@ -6,11 +6,11 @@ categories:
 coverImage: '7-unexpected-things/cover-image.webp'
 coverWidth: 4
 coverHeight: 3
-excerpt: 'There have been a handful of things that happed when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them.'
-preview: 'There have been a handful of things that happed when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them below...'
+excerpt: 'There have been a handful of things that happend when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them.'
+preview: 'There have been a handful of things that happend when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them below...'
 ---
 
-There have been a handful of things that happed when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them below.
+There have been a handful of things that happend when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them below.
 
 ### Not Everything Is Alcohols Fault
 
@@ -26,7 +26,7 @@ Alcohol didn’t cause my chronic issues, but it also didn’t help, so it has b
 
 ### Social outings become more enjoyable, even for an introvert
 
-**Social gatherings was a primary reason I drank**
+**Social gatherings were a primary reason I drank**
 
 Many of us are not outgoing, or get excited about the idea of surrounding ourselves with people we rarely talk to. Alcohol lowers our inhibitions and our social guards, making it easier to socialize and engage with others at gatherings. I think this is one of the biggest things alcohol has going for it, and was an area I wasn’t sure how I would deal with after quitting.
 
