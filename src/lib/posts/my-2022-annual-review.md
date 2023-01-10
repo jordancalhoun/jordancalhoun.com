@@ -9,7 +9,7 @@ coverImage: '2022-annual-review/cover-image.webp'
 coverWidth: 16
 coverHeight: 9
 excerpt: "When doing my annual review I characterized the year as **foundational growth**.  As I laid out my goals for 2023, I realized none of it would be possible without the progress that I made in 2022.  (Heck this Annual Review wouldn't exist without the lessons of 2022).  In this post, I go over how I got here, my key takeaways, and what I'm going after in 2023."
-preview: "For the first time ever, I have done an Annual Review.  This is the story of how I got here, what key lessons I learned from 2022, and what I am going after in 2023"
+preview: "For the first time, I have done an Annual Review.  This is the story of how I got here, what key lessons I learned from 2022, and what I am going after in 2023"
 ---
 
 When doing my annual review I characterized the year as **foundational growth**.  As I laid out my goals for 2023, I realized none of it would be possible without the progress that I made in 2022.  (Heck this Annual Review wouldn't exist without the lessons of 2022).  In this post, I go over how I got here, my key takeaways, and what I'm going after in 2023.
