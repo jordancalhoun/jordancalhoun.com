@@ -40,8 +40,8 @@
         />
         <span class="font-bold">Full stack developer, woodworker, hifi enthusiast.</span>
         I am currently doing most of my work at SAC Energy, an energy company based out of Bedford, PA.
-        I spend my mornings and evenings learning productivity strategies, designing/building furniture,
-        coding, and spending time with my family.
+        I spend my mornings and evenings learning productivity strategies, designing/building furniture
+        with my company Mortise & Co., coding, and spending time with my family.
       </p>
       <div class="md:flex mt-10 hidden ">
         {#each socialLinks as link}
@@ -52,7 +52,11 @@
       </div>
     </div>
     <div class="min-w-fit my-auto hidden md:block">
-      <img src="/images/profile-picture.webp" alt="Jordan and Brinley" class="w-60 rounded mx-8" />
+      <img
+        src="/images/profile-picture.webp"
+        alt="Jordan in his workshop"
+        class="w-60 rounded mx-8"
+      />
     </div>
   </div>
 </div>
