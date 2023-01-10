@@ -27,7 +27,7 @@
       <iframe
         title="Album of the Month"
         style="border-radius:12px"
-        src="https://open.spotify.com/embed/album/4MF4pjJyipArWvVHiPSSVl"
+        src="https://open.spotify.com/embed/album/2t8LA6S6ZqQGY8ROin57RB?utm_source=generator"
         width="100%"
         height="180px"
         frameBorder="0"
