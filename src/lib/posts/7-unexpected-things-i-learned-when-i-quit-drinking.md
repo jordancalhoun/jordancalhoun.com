@@ -10,7 +10,9 @@ excerpt: 'There have been a handful of things that happend when I quit drinking 
 preview: 'There have been a handful of things that happend when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them below...'
 ---
 
-There have been a handful of things that happend when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them below.
+There have been a handful of things that happened when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them below.
+
+
 
 ### 1. Not Everything Is Alcohol's Fault
 
