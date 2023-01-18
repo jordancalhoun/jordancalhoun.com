@@ -4,15 +4,17 @@ date: '2022-12-21'
 categories:
   - 'addiction'
 coverImage: '7-unexpected-things/cover-image.webp'
-coverWidth: 4
-coverHeight: 3
+coverWidth: 16
+coverHeight: 9
+coverPhotoCredited: true
+coverSource: 'https://unsplash.com/photos/6mRo659CPmM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
+coverAuthor: 'Japheth Mast'
+coverAuthorSource: 'https://unsplash.com/@japhethmast?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
 excerpt: 'There have been a handful of things that happend when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them.'
 preview: 'There have been a handful of things that happend when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them below...'
 ---
 
 There have been a handful of things that happened when I quit drinking alcohol that I didn’t expect. I have compiled a list of the most significant ones and a little bit about them below.
-
-
 
 ### 1. Not Everything Is Alcohol's Fault
 
