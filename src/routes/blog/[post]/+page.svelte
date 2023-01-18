@@ -1,11 +1,24 @@
 <script lang="ts">
+  import CoverPhotoCredit from './CoverPhotoCredit.svelte';
+
   import { generateFriendlyDate } from '$lib/utils/date';
   import type { PageData } from './$types';
 
   export let data: PageData;
 
-  const { title, date, updated, categories, coverImage, coverWidth, coverHeight, excerpt } =
-    data.meta;
+  const {
+    title,
+    date,
+    updated,
+    categories,
+    coverImage,
+    coverWidth,
+    coverHeight,
+    excerpt,
+    coverPhotoCredited,
+  } = data.meta;
+
+  const { coverAuthor, coverAuthorSource, coverSource } = data.meta;
 
   const friendlyDate = generateFriendlyDate(date);
   const friendlyUpdate = updated && generateFriendlyDate(updated);
@@ -32,12 +45,21 @@
     alt=""
     style="aspect-ratio: {coverWidth} / {coverHeight};"
     class="
-      md:my-9
-      md:rounded-lg
       shadow-md
       md:hidden
+      mb-0
     "
   />
+  <div class="md:hidden mb-5 pl-1">
+    {#if coverPhotoCredited}
+      <CoverPhotoCredit
+        author={coverAuthor}
+        authorSource={coverAuthorSource}
+        source={coverSource}
+      />
+    {/if}
+  </div>
+
   <h1 class="text-center text-neutral-800 font-semibold text-4xl mb-5 p-2">{title}</h1>
   <p class="text-center">
     <span class="text-sm text-neutral-400">Posted: {friendlyDate}</span>
@@ -69,15 +91,26 @@
     alt=""
     style="aspect-ratio: {coverWidth} / {coverHeight};"
     class="
-      my-9
+      mt-9
       md:rounded-lg
       shadow-md
       hidden
       md:block
       border
       border-neutral-100
+      mb-0
     "
   />
+  <div class="hidden md:block">
+    {#if coverPhotoCredited}
+      <CoverPhotoCredit
+        author={coverAuthor}
+        authorSource={coverAuthorSource}
+        source={coverSource}
+      />
+    {/if}
+  </div>
+
   <div
     class="
     px-7
