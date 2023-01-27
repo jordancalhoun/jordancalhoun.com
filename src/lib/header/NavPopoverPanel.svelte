@@ -7,6 +7,7 @@
   import TwitterIcon from '../components/icons/TwitterIcon.svelte';
   import TidalIcon from '$lib/components/icons/TidalIcon.svelte';
   import SpotifyIcon from '$lib/components/icons/SpotifyIcon.svelte';
+  import MastodonIcon from '$lib/components/icons/MastodonIcon.svelte';
 
   export let navLinks: navLink[];
 
@@ -20,6 +21,11 @@
       name: 'Twitter',
       href: 'https://twitter.com/jordancalhoun',
       icon: TwitterIcon,
+    },
+    {
+      name: 'Mastodon',
+      href: 'https://mastodon.world/@jordancalhoun',
+      icon: MastodonIcon,
     },
     {
       name: 'Tidal',
@@ -73,7 +79,7 @@
       <div class="border-t-2 border-t-slate-200 pt-5">
         <ul>
           {#each socialLinks as link}
-            <a href={link.href} class="w-auto h-auto inline-block p-3" target="_blank">
+            <a href={link.href} rel="me" class="w-auto h-auto inline-block p-3" target="_blank">
               <svelte:component this={link.icon} class="text-neutral-800 hover:text-violet-600" />
             </a>
           {/each}
