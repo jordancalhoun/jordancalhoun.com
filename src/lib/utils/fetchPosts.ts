@@ -16,6 +16,9 @@ export const fetchMarkdownPosts = async ({ limit = 10, offset = 0, category = ''
     return new Date(b.meta.date).valueOf() - new Date(a.meta.date).valueOf();
   });
 
+  // remove non-active posts.
+  sortedPosts = sortedPosts.filter((post) => post.meta.active === true);
+
   // filter out posts by category
   if (category) {
     sortedPosts = sortedPosts.filter((post) => post.meta.categories.includes(category));

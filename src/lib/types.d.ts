@@ -13,6 +13,7 @@ type socialLink = {
 type Post = {
   postPath: string;
   meta: {
+    active: boolean;
     title: string;
     date: string;
     updated: string;
@@ -22,5 +23,9 @@ type Post = {
     coverHeight: number;
     excerpt: string;
     preview: string;
+    coverPhotoCredited: boolean;
+    coverSource: string?;
+    coverAuther: string?;
+    coverAuthorSource: string?;
   };
 };
