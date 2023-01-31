@@ -14,61 +14,61 @@ If you see any issues and would like to fix please submit a PR, I appreciate any
 
 # Post Front Matter Definitions
 
-## `active`: `boolean`
+### `active`: `boolean`
 
 Flag to the post in feed or not. Useful for hiding drafts and templates.
 
-## `title`: `string`
+### `title`: `string`
 
 Title of the blog post.
 
-## `date`: `string`
+### `date`: `string`
 
 Original date posted. Format: `YYYY-MM-DD`
 
-## `updated`: `string`
+### `updated`: `string`
 
 Date of last updates. Format: `YYYY-MM-DD`
 
-## `categories`: `string[]`
+### `categories`: `string[]`
 
 Categories to assign to post. Used to generate list of categories for users to filter against.
 
-## `coverImage`: `string`
+### `coverImage`: `string`
 
 Path to the cover image file.
 
-## `coverWidth`: `number`
+### `coverWidth`: `number`
 
 Width of the cover image in ratio format.
 
-## `coverHeight`: `number`
+### `coverHeight`: `number`
 
 Height of cover image in ratio format.
 
-## `excerpt`: `string`
+### `excerpt`: `string`
 
 Body of the share card for the article on social media.
 
-## `preview`: `string`
+### `preview`: `string`
 
 Body that is listed in the blog post feeds for preview of the post. Used on pages such as homepage and /blog
 
-## `coverPhotoCredited`: `boolean`
+### `coverPhotoCredited`: `boolean`
 
 If the photo requires attribution, set to true
 
-## `coverSource`: `string?`
+### `coverSource`: `string?`
 
 Required for `coverPhotoCredited` === `true`
 Full URL to the photo itself.
 
-## `coverAuther`: `string?`
+### `coverAuther`: `string?`
 
 Required for `coverPhotoCredited` === `true`
 Name of the person/entity to be credited
 
-## `coverAuthorSource`: `string?`
+### `coverAuthorSource`: `string?`
 
 Required for `coverPhotoCredited` === `true`
 Full URL to the profile page of the person/entity
