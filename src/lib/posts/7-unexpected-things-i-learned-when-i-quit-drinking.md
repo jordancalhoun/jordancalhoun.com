@@ -2,6 +2,7 @@
 active: true
 title: '7 Unexpected Things I Learned When I Quit Drinking'
 date: '2022-12-21'
+updated: '2023-01-31'
 categories:
   - 'addiction'
 coverImage: '7-unexpected-things/cover-image.webp'

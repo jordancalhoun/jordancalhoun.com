@@ -2,6 +2,7 @@
 active: true
 title: 'Hello World'
 date: '2022-10-05'
+updated: '2023-01-31'
 categories:
   - 'svelte'
   - 'javascript'
