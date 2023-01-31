@@ -14,7 +14,7 @@ If you see any issues and would like to fix please submit a PR, I appreciate any
 
 ## Docs
 
-- [Svelete](https://svelte.dev/docs)
-- [SveleteKit](https://kit.svelte.dev/docs/introduction)
+- [Svelte](https://svelte.dev/docs)
+- [SvelteKit](https://kit.svelte.dev/docs/introduction)
 - [tailwindcss](https://tailwindcss.com/docs/installation)
 - [Sass](https://sass-lang.com/documentation/)
