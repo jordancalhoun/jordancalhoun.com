@@ -18,27 +18,72 @@ preview: ''
 
 Today I wanted to talk about the steps and tools that I used to *finally* quit drinking.  My hope is that one other person out there finds this post when they need it most and that it is of some help to them.
 
-## Introduction
+### Disclaimer
 
-I am not a qualified professional in any of these areas.  Opinions and statements are my own.  Speak with a medical professional before altering your intake.  
+I am not a qualified professional in any of these areas.  Opinions and statements are my own.  Speak with a medical professional before making any changes in your diet. The following is a guide for what worked for me and my opinions on alcohol.  Take what resonates with you and toss the rest.
 
-The following is a guide for what worked for me.  Take what resonates with you and toss the rest.
+## Alcoholism, The King of Bad Habits
 
-## Getting Started
+Alcoholism is often considered a disease, and while there is some truth to that, at its core, I see alcoholism as just a bad habit. A habit is defined as a routine behavior that is repeated regularly and tends to occur subconsciously. Drinking alcohol is a habit that can be developed over time and can lead to addiction.
 
-**Start surrounding yourself with content that is about quitting drinking**.  This can be done while you're drinking.  This content should be interesting to you and should be done at regular intervals.  The key here is to form a habit of consuming content that aligns with the person that you want to become.  Hearing others' stories resonated the most with me.  I consumed a lot of the ["I'm Quitting Alcohol"](https://open.spotify.com/show/5sl90eruNwh5wABIILCS0b?si=f05b0167fecf48da) podcast, starting from episode 1. (Disclaimer: Lots of swearing).
+The reason alcoholism is often considered a disease is that it changes the brain's chemistry, leading to physical dependence and withdrawal symptoms. However, the development of this physical dependence starts with the repeated behavior of drinking alcohol.
 
-Start by quitting quietly.  Overcoming an alcohol addiction is a very personal thing.  This shouldn't be about anyone else but yourself, so it's best to make sure we are not doing any of this for the bragging rights.  There will be a lot of failures and relapses before success.  I found it easier to get back on track when I do not have to publicly "reset".  
+Like any habit, alcoholism can be broken by changing the behavior. This is why treatment for alcoholism often involves breaking the routine and replacing it with healthier habits. This can include therapy, support groups, and learning new coping mechanisms.
 
-Prepare to be very bored.  Once you quit, you will find a lot of downtime reveals itself.  Make a list of activities that you can do to occupy these pockets of time.  We can't overcome a bad habit successfully unless we replace it with healthy habits.
+It's important to recognize that alcoholism is not just a lack of willpower or a personal failing. It is a complicated issue that requires professional help to overcome. However, understanding that at its core, alcoholism is just a bad habit, can help change the way we approach it.
 
-## Getting To Work
+## Building the Foundation
 
-Write as much as you can muster up.  Have a relapse?  Write about it.  Preferably as soon as you can.  I am not written by my nature, I'd much rather be creating something physical in the shop or creating something visual in the digital space.  However,  Journaling serves so many purposes, that it is worth doing, regardless of our skill set.  Let's go through a few reasons in a little bit of detail:
+Now that we have shifted our understanding of what alcoholism is a bit, let's start implementing some systems that kick the habit.  Breaking a habit and starting a new one can be challenging, but it is much easier to accomplish when we implement systems to help us achieve our goals.  Making small changes can be an effective part of that system. Here are a few suggestions to get started:
 
-1. Having a diary of your past successes and maybe more importantly, failures will be a great ally when going through hard times.  They give you unfiltered access to what it feels like to relapse and how you felt the next day - without actually relapsing.  This can be a huge source of motivation to keep going.
+**Start surrounding yourself with content that is about quitting drinking**.  I did this while I still was drinking.  This content should be interesting to you and should be done at regular intervals. (Consistency is key for habits).  The key here is to form a habit of consuming content that aligns with the person that you want to become.  Hearing others' stories resonated the most with me.  I consumed a lot of the ["I'm Quitting Alcohol"](https://open.spotify.com/show/5sl90eruNwh5wABIILCS0b?si=f05b0167fecf48da) podcast, starting from episode 1. (Disclaimer: Lots of swearing).
+
+In addition to podcasts about the topic I also started reading more.  This helped keep my brain busy in some of the downtimes I now found myself in and also helped me better understand my addiction better.  Two of those books I read during that time that I cannot recommend enough are [Atomic Habits](https://amzn.to/3jjB9dk) (affiliate link) and [Alcohol Lied To Me](https://amzn.to/3jjB9dk) (affiliate link)
+
+**Prepare to be very bored**.  Drinking took up a lot of mental space as well as my time in the evenings.  Once you quit, you will find a lot of downtime reveals itself.  Make a list of activities that you can do to occupy these pockets of time.  We can't overcome bad habits successfully unless we replace them with healthy ones.  What is one thing that you dream of doing, but never have the time to do?
+
+**Get started immediately**.  Don't wait for the first of the year, the start of a new month, etc.  Now is the time to start.  If you fail, that's okay, start again.
+
+## Start
+
+**Start by quitting quietly**.  Overcoming an alcohol addiction is a very personal thing.  This shouldn't be about anyone else but yourself, so it's best to make sure we are not doing it for the wrong reasons.  I had a lot of failures and relapses before success.  I found it easier to get back on track when I didn't have to publicly "reset".
+
+**Write as much as you can muster up**.  Have a relapse?  Write about it.  Preferably as soon as you can.  I am not a writer by nature, I'd much rather be creating something physical in the shop or creating something visual in the digital space.  However,  Journaling serves so many purposes, that it is worth doing, regardless of our skill set.  Journal entries do not have to be a college thesis.  They can be whatever you feel that day.  Let's go through two reasons to journal in a little bit of detail:
+
+1. Having a diary of your past successes and maybe more importantly, failures will be a great ally when going through hard times.  They give you unfiltered access to what it feels like to relapse and how you felt the next day.  This can be a huge source of motivation to keep going when you want to have a drink.
 2. Writing has been proven to increase one's happiness.  There are going to be a lot of downs, let's offset that with some systematic ups.  More on this and tips for writing prompts can be found on [this 15min episode of The Chase Jarvis Life Show](https://www.chasejarvis.com/blog/writing-makes-photographers-more-creative-5-easy-tips/).  
 
-## After Success
+**Use multiple apps to track your progress and reaffirm the goal**:  Each app can focus on different aspects of sobriety, such as physical health, mental health, and community support. This can provide a comprehensive view of progress and help reinforce the goal. Additionally, the use of multiple apps gives a higher sense of accomplishment and motivation as each milestone is reached.
 
-After you have found your rhythm and are confident in your new self, then it's a good time to share.  For me, this took one year without a relapse before I felt like I could share my story. 
+Here are some of the apps that I used and highly recommend:
+
+- [Less - Alcohol Tracker](https://apps.apple.com/us/app/less-alcohol-tracker/id1484828892)
+- [Days Since - Quit Tracker](https://apps.apple.com/us/app/days-since-quit-tracker/id1445348921)
+- [I Am Sober](https://iamsober.com/)
+- [Reframe](https://www.reframeapp.com/)
+
+## Things to Remember
+
+- **Habits don't define you as a person.** While habits can be difficult to break, it's important to separate the behavior from the individual. It's also important to recognize that habits can be changed and that it's never too late to start new, healthier routines. By focusing on the behavior and taking steps to change it, we can break the cycle of addiction and improve our overall well-being.
+
+- **It takes time.**  It wasn't until around six months of sobriety that I felt like I had a truly great day.  Be patient with the process and yourself.
+- **Past failures are not wasted.**  Use them as insights for the next attempt.  What was the root cause for slipping?  Was there a trigger that could be removed in the future to prevent this from happening again?  This is where the benefits of journaling and tracking our progress come in handy.
+
+## Share Your Story
+
+After you have found your rhythm and are confident in your systems, it's time to share.  For me, this took one year without a relapse before I felt like I could share my story.  I started with a simple Instagram post:
+
+> today marks my one year of sobriety. If you have spent any amount of time with me I think you understand how wild it is for me to be able to say that.
+>
+> I use to dream about being able to say that. I would wonder what life would be like without drunken nights and hungover mornings.
+>
+> It hasn’t been easy and I still have my days, but man has it been worth it.
+>
+> I am so grateful for each day I remain sober, the early morning adventures with my kids, the late night ice cream with my wife, and the countless other memories that we’ve made because of it.
+>
+> If you are someone who has been trying to stay sober I encourage you to keep fighting, life has so much more to offer you.
+>
+> Katie, you have shown me so much grace and mercy through my darkest times as well as support and encouragement every time I failed to remain sober. You are the greatest single anchor in my life and I am forever grateful for you <3
+
+I was extremely apprehensive to share my successes.  I was worried by sharing it, I would doom myself to failure or something.  But this was the next step that I needed to further cement that this was who I was and that I was no longer that person.
+
