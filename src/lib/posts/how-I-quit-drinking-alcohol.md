@@ -1,19 +1,19 @@
 ---
 active: false
 title: 'How I Quit Drinking Alcohol'
-date: '2023-02-03'
+date: '2023-03-11'
 #updated: ''
 categories:
   - 'addiction'
-coverImage: ''
+coverImage: 'how-i-quit-drinking/closed-liquor-store.jpg'
 coverWidth: 16
 coverHeight: 9
 coverPhotoCredited: true
-coverSource: ''
-coverAuthor: ''
-coverAuthorSource: ''
-excerpt: ''
-preview: ''
+coverSource: 'https://unsplash.com/photos/eVZrw8otFcc'
+coverAuthor: 'Acton Crawford'
+coverAuthorSource: 'https://unsplash.com/@acton_crawford'
+excerpt: 'Today I wanted to talk about the steps and tools that I used to finally quit drinking.  My hope is that one other person out there finds this post when they need it most and that it is of some help to them.'
+preview: 'Today I wanted to talk about the steps and tools that I used to finally quit drinking.  My hope is that one other person out there finds this post when they need it most and that it is of some help to them.'
 ---
 
 Today I wanted to talk about the steps and tools that I used to *finally* quit drinking.  My hope is that one other person out there finds this post when they need it most and that it is of some help to them.
@@ -84,7 +84,7 @@ After you have found your rhythm and are confident in your systems, it's time to
 >
 > If you are someone who has been trying to stay sober I encourage you to keep fighting, life has so much more to offer you.
 >
-> Katie, you have shown me so much grace and mercy through my darkest times as well as support and encouragement every time I failed to remain sober. You are the greatest single anchor in my life and I am forever grateful for you <3
+> Katie, you have shown me so much grace and mercy through my darkest times as well as support and encouragement every time I failed to remain sober. You are the greatest single anchor in my life and I am forever grateful for you
 
 I was extremely apprehensive to share my successes.  I was worried by sharing it, I would doom myself to failure or something.  But this was the next step that I needed to further cement that this was who I was.
 
