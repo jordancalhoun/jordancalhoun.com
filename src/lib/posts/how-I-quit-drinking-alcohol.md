@@ -24,13 +24,13 @@ I am not a qualified professional in any of these areas.  Opinions and statement
 
 ## Alcoholism, The King of Bad Habits
 
-Alcoholism is often considered a disease, and while there is some truth to that, at its core, I see alcoholism as just a bad habit. A habit is defined as a routine behavior that is repeated regularly and tends to occur subconsciously. Drinking alcohol is a habit that can be developed over time and can lead to addiction.
+Alcoholism is often considered a disease, and while there is truth to that, at its core, I see alcoholism as just a bad habit. A habit is defined as a routine behavior that is repeated regularly and tends to occur subconsciously. Drinking alcohol is a habit that can be developed over time and can lead to addiction.
 
 The reason alcoholism is often considered a disease is that it changes the brain's chemistry, leading to physical dependence and withdrawal symptoms. However, the development of this physical dependence starts with the repeated behavior of drinking alcohol.
 
 Like any habit, alcoholism can be broken by changing the behavior. This is why treatment for alcoholism often involves breaking the routine and replacing it with healthier habits. This can include therapy, support groups, and learning new coping mechanisms.
 
-It's important to recognize that alcoholism is not just a lack of willpower or a personal failing. It is a complicated issue that requires professional help to overcome. However, understanding that at its core, alcoholism is just a bad habit, can help change the way we approach it.
+Alcoholism is not just a lack of willpower or a personal failing. It is a complicated issue that sometimes requires professional help to overcome. However, understanding that at its core, alcoholism is just a bad habit, can help change the way we approach it.
 
 ## Building the Foundation
 
@@ -38,7 +38,7 @@ Now that we have shifted our understanding of what alcoholism is a bit, let's st
 
 **Start surrounding yourself with content that is about quitting drinking**.  I did this while I still was drinking.  This content should be interesting to you and should be done at regular intervals. (Consistency is key for habits).  The key here is to form a habit of consuming content that aligns with the person that you want to become.  Hearing others' stories resonated the most with me.  I consumed a lot of the ["I'm Quitting Alcohol"](https://open.spotify.com/show/5sl90eruNwh5wABIILCS0b?si=f05b0167fecf48da) podcast, starting from episode 1. (Disclaimer: Lots of swearing).
 
-In addition to podcasts about the topic I also started reading more.  This helped keep my brain busy in some of the downtimes I now found myself in and also helped me better understand my addiction better.  Two of those books I read during that time that I cannot recommend enough are [Atomic Habits](https://amzn.to/3jjB9dk) (affiliate link) and [Alcohol Lied To Me](https://amzn.to/3jjB9dk) (affiliate link)
+In addition to podcasts about quitting alcohol, I also started reading more.  This helped keep my brain busy in some of the downtimes I now found myself in and also helped me better understand my addiction better.  Two of the books I read that I cannot recommend enough are [Atomic Habits](https://amzn.to/3jjB9dk) (affiliate link) and [Alcohol Lied To Me](https://amzn.to/3jjB9dk) (affiliate link)
 
 **Prepare to be very bored**.  Drinking took up a lot of mental space as well as my time in the evenings.  Once you quit, you will find a lot of downtime reveals itself.  Make a list of activities that you can do to occupy these pockets of time.  We can't overcome bad habits successfully unless we replace them with healthy ones.  What is one thing that you dream of doing, but never have the time to do?
 
@@ -50,8 +50,8 @@ In addition to podcasts about the topic I also started reading more.  This helpe
 
 **Write as much as you can muster up**.  Have a relapse?  Write about it.  Preferably as soon as you can.  I am not a writer by nature, I'd much rather be creating something physical in the shop or creating something visual in the digital space.  However,  Journaling serves so many purposes, that it is worth doing, regardless of our skill set.  Journal entries do not have to be a college thesis.  They can be whatever you feel that day.  Let's go through two reasons to journal in a little bit of detail:
 
-1. Having a diary of your past successes and maybe more importantly, failures will be a great ally when going through hard times.  They give you unfiltered access to what it feels like to relapse and how you felt the next day.  This can be a huge source of motivation to keep going when you want to have a drink.
-2. Writing has been proven to increase one's happiness.  There are going to be a lot of downs, let's offset that with some systematic ups.  More on this and tips for writing prompts can be found on [this 15min episode of The Chase Jarvis Life Show](https://www.chasejarvis.com/blog/writing-makes-photographers-more-creative-5-easy-tips/).  
+1. **Having a diary of your past successes and maybe more importantly, failures will be a great ally when going through hard times.**  They give you unfiltered access to what it feels like to relapse and how you felt the next day.  This can be a huge source of motivation to keep going when you want to have a drink.
+2. **Writing has been proven to increase one's happiness.**  There are going to be a lot of downs, let's offset that with some systematic ups.  More on this and tips for writing prompts can be found on [this 15min episode of The Chase Jarvis Live Show](https://www.chasejarvis.com/blog/writing-makes-photographers-more-creative-5-easy-tips/).  
 
 **Use multiple apps to track your progress and reaffirm the goal**:  Each app can focus on different aspects of sobriety, such as physical health, mental health, and community support. This can provide a comprehensive view of progress and help reinforce the goal. Additionally, the use of multiple apps gives a higher sense of accomplishment and motivation as each milestone is reached.
 
@@ -64,10 +64,11 @@ Here are some of the apps that I used and highly recommend:
 
 ## Things to Remember
 
-- **Habits don't define you as a person.** While habits can be difficult to break, it's important to separate the behavior from the individual. It's also important to recognize that habits can be changed and that it's never too late to start new, healthier routines. By focusing on the behavior and taking steps to change it, we can break the cycle of addiction and improve our overall well-being.
+- **Habits don't define you as a person.** While habits can be difficult to break, it's important to separate the behavior from the ourselves. It's also important to recognize that habits can be changed and that it's never too late to start new, healthier routines. By focusing on the behavior and taking steps to change it, we can break the cycle of addiction and improve our overall well-being.
 
-- **It takes time.**  It wasn't until around six months of sobriety that I felt like I had a truly great day.  Be patient with the process and yourself.
-- **Past failures are not wasted.**  Use them as insights for the next attempt.  What was the root cause for slipping?  Was there a trigger that could be removed in the future to prevent this from happening again?  This is where the benefits of journaling and tracking our progress come in handy.
+- **It takes time.**  It wasn't until around six months of sobriety that I felt like I had a truly great day.  Be patient with the process and yourself. 
+
+- **Past failures are not wasted.**  Use failures as insights for the next attempt.  What was the root cause for slipping?  Was there a trigger that could be removed in the future to prevent this from happening again?  This is where the benefits of journaling and tracking our progress come in handy.
 
 ## Share Your Story
 
@@ -85,5 +86,16 @@ After you have found your rhythm and are confident in your systems, it's time to
 >
 > Katie, you have shown me so much grace and mercy through my darkest times as well as support and encouragement every time I failed to remain sober. You are the greatest single anchor in my life and I am forever grateful for you <3
 
-I was extremely apprehensive to share my successes.  I was worried by sharing it, I would doom myself to failure or something.  But this was the next step that I needed to further cement that this was who I was and that I was no longer that person.
+I was extremely apprehensive to share my successes.  I was worried by sharing it, I would doom myself to failure or something.  But this was the next step that I needed to further cement that this was who I was.
+
+This step is vital for giving back to the same communities that helped us on our journey.
+
+## Wrapping Up
+Breaking the cycle of addiction and quitting drinking is a challenging journey that requires time, dedication, and more importantly patience with yourself.  Shifting your mindset about alcoholism and replacing it with healthier routines will significantly increase your likelihood of success.
+
+Surround yourself with content or others that are aligned with who you want to be, and when you fail, start again with new knowledge from that failure.
+
+Lastly, share your success when you've overcome alcoholism to help others in their battle.
+
+Remember to speak with a medical professional before making any changes to your intake, and take what resonates with you from this guide and forget the rest.
 
