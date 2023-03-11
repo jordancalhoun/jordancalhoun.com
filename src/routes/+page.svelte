@@ -27,7 +27,7 @@
       <iframe
         title="Album of the Month"
         style="border-radius:12px"
-        src="https://open.spotify.com/embed/album/2t8LA6S6ZqQGY8ROin57RB?utm_source=generator"
+        src="https://open.spotify.com/embed/album/5rJqKtbGfVUH8glGRtPVic?utm_source=generator"
         width="100%"
         height="180px"
         frameBorder="0"
@@ -39,7 +39,7 @@
       <iframe
         title="Spotify Playlist"
         style="border-radius:8px"
-        src="https://open.spotify.com/embed/playlist/6W4EqoTMa0dxzcHWBukVhu"
+        src="https://open.spotify.com/embed/playlist/1JpPlCCsbTwsgYL0asdsWG?utm_source=generator"
         width="100%"
         height="180px"
         frameBorder="0"
