@@ -22,11 +22,11 @@
       href: 'https://twitter.com/jordancalhoun',
       icon: TwitterIcon,
     },
-    {
-      name: 'Mastodon',
-      href: 'https://mastodon.world/@jordancalhoun',
-      icon: MastodonIcon,
-    },
+    // {
+    //   name: 'Mastodon',
+    //   href: 'https://mastodon.world/@jordancalhoun',
+    //   icon: MastodonIcon,
+    // },
     {
       name: 'Tidal',
       href: 'https://tidal.com/browse/user/168026990',

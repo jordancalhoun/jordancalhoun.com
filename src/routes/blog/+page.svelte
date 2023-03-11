@@ -10,10 +10,8 @@
 </script>
 
 <svelte:head>
-  <title>the Mortise &amp; Code Blog</title>
+  <title>Jordan Calhoun's Personal Blog</title>
 </svelte:head>
-
-<MortiseCode />
 
 <div class="m-7 hidden md:block">
   {#each featuredPosts as post}

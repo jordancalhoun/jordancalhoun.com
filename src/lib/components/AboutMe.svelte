@@ -16,11 +16,11 @@
       href: 'https://twitter.com/jordancalhoun',
       icon: TwitterIcon,
     },
-    {
-      name: 'Mastodon',
-      href: 'https://mastodon.world/@jordancalhoun',
-      icon: MastodonIcon,
-    },
+    // {
+    //   name: 'Mastodon',
+    //   href: 'https://mastodon.world/@jordancalhoun',
+    //   icon: MastodonIcon,
+    // },
     {
       name: 'Spotify',
       href: 'https://open.spotify.com/user/jordancalhoun?si=72ca47f02de14f36',

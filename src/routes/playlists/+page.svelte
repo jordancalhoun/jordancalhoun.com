@@ -24,6 +24,7 @@
       <a
         href="https://open.spotify.com/playlist/7Bt8uzRoIt0rfMbysXaCQs?si=e401475b77ee4d9f"
         target="_blank"
+        rel="noreferrer"
         class="
           uppercase
           px-7
@@ -48,6 +49,7 @@
       <a
         href="https://tidal.com/browse/playlist/f915f9be-4e5f-4c04-844a-342352fc208f"
         target="_blank"
+        rel="noreferrer"
         class="
           uppercase
           px-7
@@ -90,6 +92,7 @@
       <a
         href="https://open.spotify.com/playlist/6W4EqoTMa0dxzcHWBukVhu?si=83a3a67a9a674d36"
         target="_blank"
+        rel="noreferrer"
         class="
           uppercase
           px-7
