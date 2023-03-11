@@ -29,3 +29,9 @@ type Post = {
     coverAuthorSource: string?;
   };
 };
+
+type Goal = {
+  title: string;
+  date: string;
+  ontrack: boolean;
+};

@@ -14,6 +14,10 @@
       name: 'Playlists',
       href: '/playlists',
     },
+    {
+      name: 'Goals',
+      href: '/goals',
+    },
   ];
 
   let path: string;
