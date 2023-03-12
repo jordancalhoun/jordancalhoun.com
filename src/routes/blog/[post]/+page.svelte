@@ -3,7 +3,6 @@
 
 	import { generateFriendlyDate } from '$lib/utils/date';
 	import type { PageData } from './$types';
-	import Newsletter from '$lib/components/Newsletter.svelte';
 
 	export let data: PageData;
 
