@@ -35,7 +35,7 @@
         loading="lazy"
       />
 
-      <h3 class="text-neutral-800 text-lg font-semibold mt-5">Featured Playlist</h3>
+      <!-- <h3 class="text-neutral-800 text-lg font-semibold mt-5">Featured Playlist</h3>
       <iframe
         title="Spotify Playlist"
         style="border-radius:8px"
@@ -45,7 +45,13 @@
         frameBorder="0"
         allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
-      />
+      /> -->
+      <h3 class="text-neutral-800 text-lg font-semibold mt-5">Join the Newsletter</h3>
+      <script
+        async
+        data-uid="7518f1ca76"
+        src="https://exciting-author-7209.ck.page/7518f1ca76/index.js"
+      ></script>
     </div>
   </div>
 </div>
