@@ -1,0 +1,5 @@
+{
+	"frontMatter.framework.startCommand": "pn dev",
+	"frontMatter.preview.host": "http://localhost:5173/blog/",
+	"[markdown]": {}
+}
