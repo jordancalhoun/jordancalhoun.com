@@ -116,13 +116,10 @@
     px-7
     md:px-0
     prose-img:rounded-lg
-    first-line:uppercase
-    first-line:tracking-widest
     first-letter:text-7xl
     first-letter:font-bold
     first-letter:mr-3
-    first-letter:float-left
-    first-line:font-serif"
+    first-letter:float-left"
 	>
 		{@html data.PostContent}
 	</div>

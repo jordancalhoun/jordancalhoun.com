@@ -30,7 +30,7 @@ The reason alcoholism is often considered a disease is that it changes the brain
 
 Like any habit, alcoholism can be broken by changing the behavior. This is why treatment for alcoholism often involves breaking the routine and replacing it with healthier habits. This can include therapy, support groups, and learning new coping mechanisms.
 
-Alcoholism is not just a lack of willpower or a personal failing. It is a complicated issue that sometimes requires professional help to overcome. But having the understanding that fundamentally, alcohol is just a bad habit, can drastically change the way we approach it.
+Alcoholism is not just a lack of willpower or a personal failure. It is a complicated issue that sometimes requires professional help to overcome. But having the understanding that fundamentally, alcohol is just a bad habit, can drastically change the way we approach it.
 
 ## Building the Foundation
 
@@ -38,7 +38,7 @@ Now that we have shifted our understanding of what alcoholism is, let's start im
 
 **Start surrounding yourself with content that is about quitting drinking**.  I did this while I still was drinking.  This content should be interesting to you and should be done at regular intervals. (Consistency is key for habits).  The key here is to form a habit of consuming content that aligns with the person that you want to become.  Hearing others' stories resonated the most with me.  I consumed a lot of the ["I'm Quitting Alcohol"](https://open.spotify.com/show/5sl90eruNwh5wABIILCS0b?si=f05b0167fecf48da) podcast, starting from episode 1. (Disclaimer: lots of swearing).
 
-In addition to podcasts about quitting alcohol, I also started reading more.  This helped keep my brain busy in some of the downtime I now found myself with and also helped me better understand my addiction better.  Two of the books I read that I cannot recommend enough are [Atomic Habits](https://amzn.to/3jjB9dk) (affiliate link) and [Alcohol Lied To Me](https://amzn.to/3jjB9dk) (affiliate link).
+In addition to podcasts about quitting alcohol, I also started reading more.  This helped keep my brain busy in some of the downtime I now found myself with and also helped me better understand my addiction better.  Two of the books I read that I cannot recommend enough are [Atomic Habits](https://amzn.to/3JFbDbq) (affiliate link) and [Alcohol Lied To Me](https://amzn.to/3jjB9dk) (affiliate link).
 
 **Prepare to be very bored**.  Drinking took up a lot of mental space as well as a lot of time, especially in the evenings.  Once you quit, you will find yourself with a lot more downtime.  Make a list of activities that you can do to occupy these pockets of time.  We can't overcome bad habits successfully unless we replace them with healthy ones.  What is one thing that you dream of doing, but never have the time to do?
 
