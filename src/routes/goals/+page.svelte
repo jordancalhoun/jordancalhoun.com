@@ -9,10 +9,10 @@
 			completed: false
 		},
 		{
-			title: 'Release Fractionally 1.0',
+			title: 'Release One16 - Fraction Calculator 1.0',
 			date: 'Mar 31, 2023',
 			ontrack: true,
-			completed: false
+			completed: true
 		},
 		{
 			title: 'Read 6 Books',

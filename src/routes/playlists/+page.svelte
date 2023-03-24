@@ -1,7 +1,14 @@
 <svelte:head>
 	<title>Playlists created by Jordan Calhoun</title>
 </svelte:head>
-
+<div
+	class="bg-yellow-100 p-7 text-yellow-800  items-center selection:bg-yellow-200 selection:text-yellow-900"
+>
+	<p>
+		With Spotify's lack of communication on the Hifi tier and recent changes to their app layout,
+		I've moved to Apple Music. Playlists will be updated as I have time.
+	</p>
+</div>
 <div class="px-2 md:px-7 my-2 md:my-7 lg:flex  mx-auto max-w-7xl">
 	<div
 		class="bg-green-300 p-3 md:p-8 md:pl-0 md:grid md:grid-cols-[275px_minmax(0px,_1fr)_0px] items-center selection:bg-green-100 selection:text-green-900 rounded-md"
