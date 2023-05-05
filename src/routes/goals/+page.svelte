@@ -33,9 +33,9 @@
 			completed: false
 		},
 		{
-			title: 'Bike 1,500 Miles',
+			title: 'Hike 1,500 Miles',
 			date: 'Dec 31, 2023',
-			ontrack: false,
+			ontrack: true,
 			completed: false
 		}
 	];
