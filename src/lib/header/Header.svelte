@@ -24,14 +24,14 @@
 	$: path = $page.url.pathname;
 </script>
 
-<Popover class="relative bg-neutral-900">
+<Popover class="relative border-b-4">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6">
 		<div class="flex items-center justify-between py-6 md:justify-start md:space-x-10">
 			<!-- Logo Div -->
 			<div class="flex justify-start lg:w-0 lg:flex-1">
 				<a href="/">
 					<span
-						class="text-white font-bold text-3xl block pt-1 hover:text-pink-600 dark:text-gray-100"
+						class="text-zinc-500 font-bold text-3xl block pt-1 hover:text-pink-600 dark:text-gray-100"
 						>MORTISE &amp; CODE</span
 					>
 				</a>

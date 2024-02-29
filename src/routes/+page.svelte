@@ -12,7 +12,7 @@
 	<meta property="og:title" content={title} />
 </svelte:head>
 
-<AboutMe />
+<!-- <AboutMe /> -->
 
 <div class="p-7 lg:flex md:px-20 mx-auto max-w-7xl">
 	<div class="lg:mt-16 lg:mr-20">
@@ -41,7 +41,7 @@
 			>
 				<img src="/images/One16.png" alt="One16 - Fraction Calculator now on the app store" />
 			</a>
-			<h3 class="text-neutral-800 text-lg font-semibold mb-3">Recommendation of the Month</h3>
+			<!-- <h3 class="text-neutral-800 text-lg font-semibold mb-3">Recommendation of the Month</h3>
 
 			<iframe
 				allow="autoplay *; encrypted-media *;"
@@ -51,7 +51,7 @@
 				style="width:100%;max-width:660px;overflow:hidden;background:transparent;"
 				sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
 				src="https://embed.music.apple.com/us/album/i-i/1470962625"
-			/>
+			/> -->
 		</div>
 	</div>
 </div>

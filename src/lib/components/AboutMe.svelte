@@ -1,35 +1,28 @@
 <script lang="ts">
 	import GithubIcon from './icons/GithubIcon.svelte';
-	import TidalIcon from './icons/TidalIcon.svelte';
 	import TwitterIcon from './icons/TwitterIcon.svelte';
 	import SpotifyIcon from './icons/SpotifyIcon.svelte';
-	import MastodonIcon from './icons/MastodonIcon.svelte';
 
 	const socialLinks: socialLink[] = [
 		{
 			name: 'Github',
-			href: 'https://github.com/jordancalhoun',
+			href: 'https://github.com/codecarton',
 			icon: GithubIcon
 		},
 		{
 			name: 'Twitter',
-			href: 'https://twitter.com/jordancalhoun',
+			href: 'https://twitter.com/codecarton',
 			icon: TwitterIcon
 		},
 		{
 			name: 'Spotify',
 			href: 'https://open.spotify.com/user/jordancalhoun?si=72ca47f02de14f36',
 			icon: SpotifyIcon
-		},
-		{
-			name: 'Tidal',
-			href: 'https://tidal.com/browse/user/168026990',
-			icon: TidalIcon
 		}
 	];
 </script>
 
-<div class="bg-violet-500  ">
+<div class="bg-violet-500">
 	<div class="max-w-7xl mx-auto p-7 md:flex md:p-20">
 		<div>
 			<h2 class="text-4xl font-bold text-violet-50 mb-7">Hi 👋, I'm Jordan</h2>
@@ -45,7 +38,7 @@
 				mornings and evenings learning productivity strategies, designing/building furniture with my
 				company Mortise & Co.
 			</p>
-			<div class="md:flex mt-10 hidden ">
+			<div class="md:flex mt-10 hidden">
 				{#each socialLinks as link}
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
 					<a href={link.href} rel="me" class="mx-3 first:ml-0 last:mr-0" target="_blank">
