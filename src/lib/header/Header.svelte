@@ -32,7 +32,7 @@
 				<a href="/">
 					<span
 						class="text-white font-bold text-3xl block pt-1 hover:text-pink-600 dark:text-gray-100"
-						>MORTISE & CODE</span
+						>MORTISE &amp; CODE</span
 					>
 				</a>
 			</div>
